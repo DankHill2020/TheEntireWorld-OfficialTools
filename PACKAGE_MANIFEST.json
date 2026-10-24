@@ -1,5 +1,5 @@
 {
-  "file_count": 971,
+  "file_count": 970,
   "files": [
     {
       "path": ".gitignore",
@@ -4323,8 +4323,8 @@
     },
     {
       "path": "OFFICIAL_TOOLS_README.md",
-      "sha256": "451fa924c624779713c688431d297272a8ab86bf682fc3fa5cb47ce1a67ffb51",
-      "size": 1261
+      "sha256": "d9f0fdefefe8a1db5da3471a28cc74b8ef77ea8e902ccf4cffa2a15da2c41572",
+      "size": 1248
     },
     {
       "path": "PACKAGE_TIER.txt",
@@ -4398,8 +4398,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "451fa924c624779713c688431d297272a8ab86bf682fc3fa5cb47ce1a67ffb51",
-      "size": 1261
+      "sha256": "d9f0fdefefe8a1db5da3471a28cc74b8ef77ea8e902ccf4cffa2a15da2c41572",
+      "size": 1248
     },
     {
       "path": "substance_painter_tools/__init__.py",
@@ -4420,11 +4420,6 @@
       "path": "substance_painter_tools/textures.py",
       "sha256": "317536912d60dc760688b83011d04232f99f702666194546fe4fd2a23a5ba872",
       "size": 4018
-    },
-    {
-      "path": "tech_connector/LICENSE.md",
-      "sha256": "cdc66ff7a4023fac9018b7e4d4f56a23492675e7a745cdab3fd7d3f5fccd474a",
-      "size": 12181
     },
     {
       "path": "unreal_tools/__init__.py",
@@ -4862,5 +4857,5 @@
   "required_capability": "official_tools_bundle",
   "schema_version": 1,
   "tier": "official-tools",
-  "total_bytes": 305306305
+  "total_bytes": 305294098
 }
