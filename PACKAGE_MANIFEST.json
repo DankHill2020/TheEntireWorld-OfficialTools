@@ -1,0 +1,4861 @@
+{
+  "file_count": 970,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "17b919037273d0f73111c673de0d1cb19f191b1b66e51dd06537483a6ec0605a",
+      "size": 58
+    },
+    {
+      "path": "blender_tools/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size": 2
+    },
+    {
+      "path": "blender_tools/animation.py",
+      "sha256": "f893061ec69cac7c677f6e7b78c1c6c6bbbcf12896dce2dfde9d52d8627e8818",
+      "size": 1829
+    },
+    {
+      "path": "blender_tools/Cinematics/__init__.py",
+      "sha256": "b6720f5e38af5decd3b745e027c9ab201ac207085f3a920afc6877f4b915fd38",
+      "size": 38
+    },
+    {
+      "path": "blender_tools/Cinematics/SequenceUI/__init__.py",
+      "sha256": "2158ffe1d8adf75963d82ab5d205c425f0f29429ef8ae5ea5d92ec6536139bc6",
+      "size": 451
+    },
+    {
+      "path": "blender_tools/Cinematics/SequenceUI/sequence_ui.py",
+      "sha256": "6f24f0ecfd4325d28046b8b350386037e7f83eadf16a7b99b2f3b9d32de1cb8f",
+      "size": 21400
+    },
+    {
+      "path": "blender_tools/Cinematics/SequenceUI/sequence_utils.py",
+      "sha256": "5065febf99c2d33028f80627fcadbf64ad7dfee6d4cd9257d5adf4d2ad04b0fc",
+      "size": 11508
+    },
+    {
+      "path": "blender_tools/io.py",
+      "sha256": "63efb20c418bafb7307722c6ad0e6f2fb4c1e94af3672e0f0cdd52e8cc733021",
+      "size": 3918
+    },
+    {
+      "path": "blender_tools/pipeline_transfer.py",
+      "sha256": "1a1fc7e7075fd9760c0cff1705016995de1ed5a98cf2393b9307042fb6850067",
+      "size": 4640
+    },
+    {
+      "path": "blender_tools/render.py",
+      "sha256": "23d5c7724468beb9862d31a72379666a436d48bfb4f09ea54b17cba2aa9263d7",
+      "size": 666
+    },
+    {
+      "path": "blender_tools/Rigging/__init__.py",
+      "sha256": "78ca6f9e98d1e42e89cfb2ccc8d967933392c690205cf014e60114a8e16d31e1",
+      "size": 69
+    },
+    {
+      "path": "blender_tools/Rigging/rigging_host_adapter.py",
+      "sha256": "ebf5c550ac0593ce2c9d5398a2c7842a2836b737f70449aedec9d68399788f33",
+      "size": 89406
+    },
+    {
+      "path": "blender_tools/Rigging/surface_spatial_skin_brush.py",
+      "sha256": "9a6bad811b9dacdd437e639c2c8d8d5e573510481ad72273d8c78dc5d659b0f3",
+      "size": 9162
+    },
+    {
+      "path": "blender_tools/validation.py",
+      "sha256": "bb595d3acf9bb5443f3beac6a006fa9f2bae94fab756e503ff409424124e1925",
+      "size": 3141
+    },
+    {
+      "path": "custom_qt/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "custom_qt/climbing_anim_picker_dialog.py",
+      "sha256": "0bf0e84e6f3cb940ef20d10eba0c331b2db74741e1967fe84a4e1a6efedc73f5",
+      "size": 5920
+    },
+    {
+      "path": "custom_qt/custom_widgets.py",
+      "sha256": "afe5550ff204b09c417546d4309c4b7443b8e3f8fcb472c319fc5a960efa6c21",
+      "size": 6902
+    },
+    {
+      "path": "custom_qt/universal_anim_picker_dialog.py",
+      "sha256": "fd4e67653fc01d00bfdbe77baec55b5c3f409f1b00dce980c9383a2dd3ba098d",
+      "size": 5803
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/.gitattributes",
+      "sha256": "14e74e1d3c363f3a5c1ae8b91fbe5f932d71268df9c00c6cf33ae6efa7e0933d",
+      "size": 109
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/.gitignore",
+      "sha256": "035021081e1f05e17068ecfe818fda4ac730b6339d85e0ddbf1b4169044b9aee",
+      "size": 372
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/CHANGELOG.md",
+      "sha256": "c4b06adcfa08221a411324cf7ec10c713776f21bced5d12725894acdabd6b3a1",
+      "size": 2515
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/additional_assemble_script.py",
+      "sha256": "ca6c130ff9202f0212d2e4f6eea71692c28b0a329ec5bb929bf0ad3ceff7067c",
+      "size": 70409
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/analog_gui.ma",
+      "sha256": "8a0087ade55f5f76c18c3fe0357a15cb49011759e535ea9ea6468e7ce70d6a0f",
+      "size": 95210
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/body/fem_skeleton.ma",
+      "sha256": "b5ff47d90df36a795ff2c1fc440911b48b2aa1f0ef0abd3af9278dd20fc370ba",
+      "size": 93237
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/body/masc_skeleton.ma",
+      "sha256": "f56cc03de8dde105e06d1240f41dcb917eee2cc8d554a2b70c4e2c63c3549769",
+      "size": 87708
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/gui.ma",
+      "sha256": "f03fef87593e7ad7b8500e1c784541d8f44b2c231b2b59f7e31fc0a59dccd8e5",
+      "size": 7791666
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/lights.ma",
+      "sha256": "c61d0a4b52e0def36b3a6f357cec53ac98054ce79a4a1176328fd2770647dbbe",
+      "size": 76565
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/dx11_diffuseIrradiance_map.dds",
+      "sha256": "b52c61e2722cc8d33a1308e30a5d8034718ca0d224c47da678628115404ce7ab",
+      "size": 2097248
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/dx11_jitter_map.tga",
+      "sha256": "67ea31101c6021ff82013619006b4278575b9b39140cd46f4851ba772c78176a",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/dx11_skinLUT_map.tga",
+      "sha256": "c0c53cecc5983e678576ca6aee9d3264ea2c9a4b0787af1d86810948162bd4a2",
+      "size": 196652
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/dx11_specularIrradiance_map.dds",
+      "sha256": "5a7ed64440dc17096b8a1aebed589427fbe201dad12d9a476983dbc2d3aeb689",
+      "size": 2097248
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/eyelashes_color_map.tga",
+      "sha256": "06e24bd8b1efa0a7266e3a9223f5c29179542b471db235737f7074916722bdc4",
+      "size": 4194348
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/eyes_color_map.tga",
+      "sha256": "9f7e00bacfa2bcccc343127054c3e2a942ffb3074d627e77ef98afaab7ed12d6",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/eyes_normal_map.tga",
+      "sha256": "9a34ef87cb9c4e0acbd954defc3f74b6eae0f4564924896a6a95ee9845f66bf6",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_cavity_map.tga",
+      "sha256": "6fe1904b9bb2601da2b9390a10ed2aff4b6e1bc705cd7495d1a78278fe2f977b",
+      "size": 4194348
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_cm1_color_map.tga",
+      "sha256": "e47655e58651fe7b3277c996b77457a632120eebbcd1da3ff590360da2d50750",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_cm2_color_map.tga",
+      "sha256": "3bd73b0c53687649081336ff8828db76447f23c2b03cb484efb4e595b0b492d2",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_cm3_color_map.tga",
+      "sha256": "bf61da7a266418e545630ba48f8ec958199d68a0d64f9fd40dae4cdc8881fa84",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_color_map.tga",
+      "sha256": "d4d12d38b3fd1f4a833a0e6a75f0f4e8d226928b0c3dfcc1484a07f08d045ec3",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_micro_normal_map.tga",
+      "sha256": "a71d7e8b75327115bd9fe101738d930a0ece42a0f81d6bc4c4265c5b452802f2",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_normal_map.tga",
+      "sha256": "0d2ae899799ba278a68d309deb11650ab5eeee292cd20b694b76055c66d75f44",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_roughness_map.tga",
+      "sha256": "5bd757e898cbb70c93ba06baa8782f94850ab85756f433370b93a6f5bb77224c",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_wm1_normal_map.tga",
+      "sha256": "db9c1d4141dc03c9c949c7567a4a47fc4d3bf0d1ceccba05b0cdc570474c3216",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_wm2_normal_map.tga",
+      "sha256": "9e106e0318522f4a4868eda2b0f8ba0e426aa0696891469784431e55e1a5ef53",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/head_wm3_normal_map.tga",
+      "sha256": "649c98667c6b4f709d32724f96b576fe535f2c42f7bfb9d8b8695e5230257df2",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/teeth_color_map.tga",
+      "sha256": "5f069b9779cb9a8d5fe3f0ea7148a821cb90054b6c5a004f7707eb4cd1ac4bca",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/maps/teeth_normal_map.tga",
+      "sha256": "762b7b77b63a9f5a42a1bc2662a3beaaf955f52f2a0bfffebdcb4f3968abcfd9",
+      "size": 3145772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm13_lips_DL_msk.tga",
+      "sha256": "d7f681c5b9540201c2fd5760cd6f9d155838091fcf7ceca0be3002cd5c07e493",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm13_lips_DR_msk.tga",
+      "sha256": "af0f14b17554cd4ade25c28297f87dcb66ded28d5e7bd1c6edab3a482fe8627d",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm13_lips_UL_msk.tga",
+      "sha256": "ac6a669cdedfdc2db1171c2368f5102cb8a34ee43536baaa35c05d7a945d0edd",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm13_lips_UR_msk.tga",
+      "sha256": "79227f11cf15e7fd0857d6b3e3cc9de4b9cc091be765632b29e97cd4b2b6eead",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_blink_L_msk.tga",
+      "sha256": "e117d18ecf717ecc3a940c941f1f54756babf77ed0730f0d5987ce8d6d92410b",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_blink_R_msk.tga",
+      "sha256": "db3603bc53dc59e5629cec1b50f05dbde9bc46f2eed6572b627aa6cea1deaf55",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_browsRaiseInner_L_msk.tga",
+      "sha256": "61012649945d5bfb51a7e7e650ac328a1997832c0156c1af52c0e6761d1981d3",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_browsRaiseInner_R_msk.tga",
+      "sha256": "2b6a5ee2a940a5cfa965432dfd2416200a55ac88c34736c52ad494cab3ea6dbd",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_browsRaiseOuter_L_msk.tga",
+      "sha256": "455740df6fb7c5c94ecf452febb815e6f3ad513173e4152b117282d653afc4e1",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_browsRaiseOuter_R_msk.tga",
+      "sha256": "2d7094aa34be467e0edccd629d0bf7ffaa54691e9c11c58a65f077e6a8d91485",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_chinRaise_L_msk.tga",
+      "sha256": "785d0d01b62d68cbfb589149f6e93f442ffa9aea117431d9e073dce3e1f590df",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_chinRaise_R_msk.tga",
+      "sha256": "4096eb656272414781aee671697a33aadf55240b77992ca4c5c181b0a7a06832",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_jawOpen_msk.tga",
+      "sha256": "bcdd5b1602fae5785bd066f53e5260519c871d8fce0ca0d458e99bf0322cefcc",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_purse_DL_msk.tga",
+      "sha256": "64eba4c930e38b457be061ca03e82caf7b7b537220e335178a27621063bb4ccf",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_purse_DR_msk.tga",
+      "sha256": "bbf3172a51fa1d30e9e910d44458ca7b664ed7328848b018784754e52d4e4ce0",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_purse_UL_msk.tga",
+      "sha256": "e1eaf79990beeeb3e18559b92afd6088fe6ed6cab45a6058de0a1d08f9e7bb90",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_purse_UR_msk.tga",
+      "sha256": "d9ef173fe0a471e095789e4ccdb8f6f88ea7fdd7f3616052c24a8a12081a4da6",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_squintInner_L_msk.tga",
+      "sha256": "27f8c7089098a509b9a224ca636a1aee764eb83bf135e6b3f3ed881e4f717bde",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm1_squintInner_R_msk.tga",
+      "sha256": "e4ce82886199fcfbaa752c62d39e1f1f9bdcb33cbea50c16ac35c76cba34e34a",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_browsDown_L_msk.tga",
+      "sha256": "a9f89d997f21eb006d51188ecff9dc875021c0cea660e5021bd544d6fe21b5a3",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_browsDown_R_msk.tga",
+      "sha256": "0e9bc0bca3deed75acc5ddb370b9c6032c24d48de8aca19c6429dc9805f6bd60",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_browsLateral_L_msk.tga",
+      "sha256": "d7f70ccac35b1a91338f09038683940543953a5ec0608726a617962a9bf25b03",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_browsLateral_R_msk.tga",
+      "sha256": "c3011b4894af67844723561ace07f2dfbbb30e09fa5d4ed6e5b7d500e7c9cbc9",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_mouthStretch_L_msk.tga",
+      "sha256": "68dba47c12552d1c58084b7e4c5b8fb2c0bf2c1108741036b3ac1818187bc75f",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_mouthStretch_R_msk.tga",
+      "sha256": "a4e8d6c8d56ac39c271feefb56bb0d81feeb52ad1e5db9851652d9c8bb5cd883",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_neckStretch_L_msk.tga",
+      "sha256": "ad4d9cace078f8a1c587c7ed19980ac18c25aa9f386ea12e8f9b331202552f39",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_neckStretch_R_msk.tga",
+      "sha256": "12fd4047b7eb2cd67b4f7125cbdfddfd42a20388b2f24185a5743a98e108cea4",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_noseWrinkler_L_msk.tga",
+      "sha256": "edfcaa672f6f5156d75c265243a6ea6745a4a945342e1b04ebb5113d61566e25",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm2_noseWrinkler_R_msk.tga",
+      "sha256": "14509177cb6786ede8949fe2c8db7213f3d39b25f04f9a32c641cb813f19e7d4",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_cheekRaiseInner_L_msk.tga",
+      "sha256": "1aa3508f27812abf4b916d83d1fab2a971f0d72acd32ebd2df523b2e3c44ce48",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_cheekRaiseInner_R_msk.tga",
+      "sha256": "024f3c4bb2851f8fa30466431e91bcee26a4a15ef2fc00e59845b1e9deee5fd4",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_cheekRaiseOuter_L_msk.tga",
+      "sha256": "e30a866f04fc489169944639b7679a5df5f310db3a1b47e42d75e16b6cb9731b",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_cheekRaiseOuter_R_msk.tga",
+      "sha256": "13781b51d2da46c5fde483b9356447d9c89e7d36e4f593727efc28b1ed555b0e",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_cheekRaiseUpper_L_msk.tga",
+      "sha256": "ab5a80f7358b85d71c32dcaf261d1631ee7d9ca8256b1079ae19110668165c9b",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_cheekRaiseUpper_R_msk.tga",
+      "sha256": "d74d2c6200ea77038d3ce6a7e3079d10f09d8cdb4adfdf706a0d67becc088139",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_smile_L_msk.tga",
+      "sha256": "68a365b89b3b090f5523f681a8d9e366b0de529179733b195e6a3b3ce67bbccd",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/masks/head_wm3_smile_R_msk.tga",
+      "sha256": "82ad24db12513cb651c4d95858309a2494a4d1a840a8965293aff002878e057e",
+      "size": 65580
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/mh4/additional_assemble_script.py",
+      "sha256": "dcce793b5ea0d825f5ac26c7072faf2d6a552891cd51581c15a79c8a5c7ac815",
+      "size": 75208
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/mh4/gui.ma",
+      "sha256": "67b52c3fc34b622e142c95f75ca03afff52837457d0d4dc643432c70494da85e",
+      "size": 8396898
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/shader.ma",
+      "sha256": "a51fd93dd0eaa4ad4f8bccd6e53b9c1f14ce683a201be0d5496da364a03e3cab",
+      "size": 620220
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/shaders/dx11_shd_body.fx",
+      "sha256": "98c4521a7a1c4b1503e7bd309dcd2ae892cadb422b0e05af2879b85339b65b62",
+      "size": 130842
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/shaders/dx11_shd_eyeLeft.fx",
+      "sha256": "21c61ccd831f2abc28c19edabc80b4d58f4f3ab19d600d99dd5edda0797d4745",
+      "size": 91684
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/shaders/dx11_shd_eyeRight.fx",
+      "sha256": "21c61ccd831f2abc28c19edabc80b4d58f4f3ab19d600d99dd5edda0797d4745",
+      "size": 91684
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/shaders/dx11_shd_head.fx",
+      "sha256": "98c4521a7a1c4b1503e7bd309dcd2ae892cadb422b0e05af2879b85339b65b62",
+      "size": 130842
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/shaders/dx11_shd_teeth.fx",
+      "sha256": "21c61ccd831f2abc28c19edabc80b4d58f4f3ab19d600d99dd5edda0797d4745",
+      "size": 91684
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/data/vtx_color.py",
+      "sha256": "ccf62835242b0020e5551cc5632237a4478c7bdb3cf894938789656a9eb4a67c",
+      "size": 2489819
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_calibration.mod",
+      "sha256": "7a8ca63b4a40f43de42d46084d3e44cf7992c0b55eaa34aff6146a9b8748976a",
+      "size": 1110
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/__init__.py",
+      "sha256": "96faea0491572339075b0181e54cdca7eb9dbfd21d2108cca7ff9cf197046c9e",
+      "size": 544
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/api.py",
+      "sha256": "b843fcaf1db07795bcecca8c14082c352cc0ce2d07fad699da686c474c0affa0",
+      "size": 1094
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/builder.py",
+      "sha256": "3aea5baa4e53aa4ac63827f14aba44bf9dad59073947ae7e8a03e526e412c399",
+      "size": 15508
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/config.py",
+      "sha256": "b49d9b16cc88159a064f02e3a6c798c6a49303f121e8245f136700b6eba5684c",
+      "size": 8897
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/joint.py",
+      "sha256": "96e707d593b79ef6c506463f560e3d90daf022ce6c1d19cacc854cceaa3b280f",
+      "size": 2221
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/maya/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/maya/mesh.py",
+      "sha256": "cd4e4ad7ad4bb961f7d971479ff93d7166cc625c3ad1498d10c59bb19546e461",
+      "size": 15130
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/maya/skin_weights.py",
+      "sha256": "688a0ebaa3dd5d906edf10708a4d00338474d514b105fef09ca74cacfad1e99d",
+      "size": 7017
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/maya/util.py",
+      "sha256": "54782065c6100df8ddba3b7cfda535b5bfe5393e9c3efdffa8dc96ab3553f838",
+      "size": 2670
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/mesh.py",
+      "sha256": "601caa057eac0d36b0e9be8a679650f8669f71039a8900c7320373e3ad5ac82a",
+      "size": 3630
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/builder/rig_builder.py",
+      "sha256": "12fc4a5e9b2765194d49fb0e9d35341a1a61b4e9d0a5de9475b470f80a667285",
+      "size": 10601
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/common.py",
+      "sha256": "c0727c7a5b2b2b3dfc0242faef7134b304ae6fb5e54d086f313895d03df14fcc",
+      "size": 175
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/behavior.py",
+      "sha256": "a39d49f5e1d4d7db302901983eb8502317cf60fd4760223e251ef38fbbc6b141",
+      "size": 13258
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/definition.py",
+      "sha256": "05f9da50ca69b64f72127824f9d06c216f500593b2363d6baddb71ab65005eef",
+      "size": 13171
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/descriptor.py",
+      "sha256": "0f2f7a6d647b3692c1f98b1e4b17c52c7bcd130d431356b48ba5464f4e1fb948",
+      "size": 4389
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/dna.dll",
+      "sha256": "17d84567d4e97afc0bbfa2bed624c4249fa5678a893749cb8fe7869033dad213",
+      "size": 353280
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/dna.py",
+      "sha256": "5127e891de8b50058dcd34fb8cb78701d2b9d807155da295ca699b492a2e029b",
+      "size": 55480
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/dnalib.py",
+      "sha256": "3390b99f1613992d877018ab258d0d8cd4aee28c4b0f18fffefaab1156cc438f",
+      "size": 9264
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/geometry.py",
+      "sha256": "f6f49223015e51866db21287f6529e1e1ee80540cf58a1bf66b5e6fc617b8e86",
+      "size": 10382
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/layer.py",
+      "sha256": "d4296fead0317741692efbcb28c62fa0f6a52d243e4f390038b0a130ab11263b",
+      "size": 136
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/dnalib/python311.dll",
+      "sha256": "a811c7516f531f1515d10743ae78004dd627eba0dc2d3bc0d2e033b2722043ce",
+      "size": 5762840
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/model.py",
+      "sha256": "2c14031437af91fb775725e72f6bbc2d3bda7139d3d561d74ddedec786a1b036",
+      "size": 4534
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/ui/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/ui/app.css",
+      "sha256": "f4fdc1fbdec396059ee8a73c57e4b9b7391f5e1843d4aac8a8cb335da675bde2",
+      "size": 912
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/ui/app.py",
+      "sha256": "74b1cb9e7b9a731cd27e73453f770d883d61d4a3dec2ad1d1e5f6fd3b4b1334b",
+      "size": 36418
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/ui/widgets.py",
+      "sha256": "58391397b2f1ef5b7e97af2e6e50dea66187416884f49c57210cde28aa260a25",
+      "size": 3158
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer/version.py",
+      "sha256": "b1d2d6c7965bc136ebb50064bf7010e641557210be1f9bed88f74a5abbace2bf",
+      "size": 23
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/__init__.py",
+      "sha256": "96faea0491572339075b0181e54cdca7eb9dbfd21d2108cca7ff9cf197046c9e",
+      "size": 544
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/api.py",
+      "sha256": "b843fcaf1db07795bcecca8c14082c352cc0ce2d07fad699da686c474c0affa0",
+      "size": 1094
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/builder.py",
+      "sha256": "3aea5baa4e53aa4ac63827f14aba44bf9dad59073947ae7e8a03e526e412c399",
+      "size": 15508
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/config.py",
+      "sha256": "b49d9b16cc88159a064f02e3a6c798c6a49303f121e8245f136700b6eba5684c",
+      "size": 8897
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/joint.py",
+      "sha256": "96e707d593b79ef6c506463f560e3d90daf022ce6c1d19cacc854cceaa3b280f",
+      "size": 2221
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/maya/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/maya/mesh.py",
+      "sha256": "cd4e4ad7ad4bb961f7d971479ff93d7166cc625c3ad1498d10c59bb19546e461",
+      "size": 15130
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/maya/skin_weights.py",
+      "sha256": "688a0ebaa3dd5d906edf10708a4d00338474d514b105fef09ca74cacfad1e99d",
+      "size": 7017
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/maya/util.py",
+      "sha256": "54782065c6100df8ddba3b7cfda535b5bfe5393e9c3efdffa8dc96ab3553f838",
+      "size": 2670
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/mesh.py",
+      "sha256": "601caa057eac0d36b0e9be8a679650f8669f71039a8900c7320373e3ad5ac82a",
+      "size": 3630
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/builder/rig_builder.py",
+      "sha256": "12fc4a5e9b2765194d49fb0e9d35341a1a61b4e9d0a5de9475b470f80a667285",
+      "size": 10601
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/common.py",
+      "sha256": "c0727c7a5b2b2b3dfc0242faef7134b304ae6fb5e54d086f313895d03df14fcc",
+      "size": 175
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/behavior.py",
+      "sha256": "c8ddb52cc4924b6fd2b51dfed1711f70df56f65f30209cf23e87a33dd06669d9",
+      "size": 13294
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/definition.py",
+      "sha256": "fd14b7f9e42409b2cc870769c0395ab90e99b5ccb86e48f1b05362afbfb3d3d9",
+      "size": 13243
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/descriptor.py",
+      "sha256": "2fed2ab5a2cc3f17584f73f72904dc154308f69f420eb62ba2ef3228dab7b46c",
+      "size": 4425
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/dnalib.py",
+      "sha256": "f624610b9e9cd040ab15f45cdf901e76219a64d1ea81455006e8b651d882b397",
+      "size": 9336
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/geometry.py",
+      "sha256": "bec50f4c1fa52f1e31135cf71325667528d4a24b5678471113146b8e810e673f",
+      "size": 10418
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/dnalib/layer.py",
+      "sha256": "d4296fead0317741692efbcb28c62fa0f6a52d243e4f390038b0a130ab11263b",
+      "size": 136
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/model.py",
+      "sha256": "2c14031437af91fb775725e72f6bbc2d3bda7139d3d561d74ddedec786a1b036",
+      "size": 4534
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/ui/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/ui/app.css",
+      "sha256": "f4fdc1fbdec396059ee8a73c57e4b9b7391f5e1843d4aac8a8cb335da675bde2",
+      "size": 912
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/ui/app.py",
+      "sha256": "c401dac8bd15094ce0e977a2631bfd711e3996ff43310dd36f1cb5ee289caf0b",
+      "size": 36366
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/ui/widgets.py",
+      "sha256": "6ebce4df472f50e3eb1042e2fe7924d94b71c221f2a452eecf256c2d91665eb8",
+      "size": 3140
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dna_viewer2023/version.py",
+      "sha256": "b1d2d6c7965bc136ebb50064bf7010e641557210be1f9bed88f74a5abbace2bf",
+      "size": 23
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeLists.txt",
+      "sha256": "aee7fb4a8b5f13541bfdcfdf3a81c43d20b4d17bb5e96b45497f6eb13b8aefb9",
+      "size": 1281
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/CMakeModulesExtra.cmake",
+      "sha256": "43f07e2a8baea10501e3f648d18b20ed8c09f85e870f51a0017b3f37fc5e7764",
+      "size": 315
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/install/Config.cmake.in",
+      "sha256": "385ba9d8c4cc63f72625436f81c6bb308130cfa3ea8bb8bb2a86d9e43da1eef6",
+      "size": 362
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/install/InstallLibrary.cmake",
+      "sha256": "9f367e95dcd3d2e94bab48ea46aab260a4e2693fa9de80304e6c24a14ed603e0",
+      "size": 3930
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/symbols/Defs.h.in",
+      "sha256": "1c34c15d4ea0a2c1eefa306cab8d62a1d48382d28fc9a16d32bfaeef4123c1ff",
+      "size": 820
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/symbols/Symbols.cmake",
+      "sha256": "6441a7b6d7281d03b6fbebc1c6e69e40552d50fe1a61983dfc1c6b723c993ef1",
+      "size": 891
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/utilities/SupportedCompileOptions.cmake",
+      "sha256": "69ced883724e4fc16ab7de20b27d0fbf2691a2745b45e66f7a4e315e486e204f",
+      "size": 1878
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/version/Version.rc.in",
+      "sha256": "92a270b6dbdd85f3adec07cdc0026f171c284d4353c8fcdf6df11acbe2a596e6",
+      "size": 2090
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/version/VersionHeader.cmake",
+      "sha256": "9dba7ae932f4dd539a79efaf2394c5c1b12ed330b50777417342fb1758c2ba52",
+      "size": 823
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/version/VersionHeader.h.in",
+      "sha256": "84668995b8699b4750a4c9647e75c9ee1fadbf1f6682518fb7154a60d57e4ee4",
+      "size": 329
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/CMakeModulesExtra/version/VersionInfo.cmake",
+      "sha256": "11471674c7aa71d51686ebc3c0d1558ed35f825a40d5f76af411b2b41767f2b5",
+      "size": 1661
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/dna.dll",
+      "sha256": "c3ebdfb2241c0a52cc03aa77e7b0f1ceac908d60c725907d1bfadacdaadeb7a5",
+      "size": 316416
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/dna.py",
+      "sha256": "f9fccbcd9418b5f80eb71fad0986ac18cfa2fe850a2ed0f370be2e8f0a26e010",
+      "size": 163206
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/cmake/DNACDependencies.cmake",
+      "sha256": "b0d1c09723bc36de80ef6b3fd4464aeac881511fd9f828de2a971e9a3af463ab",
+      "size": 9579
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/CMakeLists.txt",
+      "sha256": "05e402180af4fc45a57b6ab51fe05a07bbc04863bee054a3ca0e47d15d02ab7e",
+      "size": 10739
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/examples/CMakeLists.txt",
+      "sha256": "a2c3172646af97de3d92f5a90bd47bc6c641699b04a9f669be46b135b424473c",
+      "size": 1029
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/examples/CommandSequence.cpp",
+      "sha256": "b42788d260a30211ecaa7d52ab4259bea27300b10d99d5ed9f433d6ab6a7cf1b",
+      "size": 2444
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/examples/SingleCommand.cpp",
+      "sha256": "673e52558ca129a75488873b8806c946bbe8df58c7451cad2209b73db34edd51",
+      "size": 1183
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/BinaryStreamReader.h",
+      "sha256": "24eaf28f28287ea46bcea904cd8c46bffd5b0de6b41a019b026e4d03eecc9c6d",
+      "size": 6023
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/BinaryStreamWriter.h",
+      "sha256": "1cd04dd5c6ecba0f07db8f3ea07def2b80f102def613223514cd74b237923b09",
+      "size": 1547
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/DataLayer.h",
+      "sha256": "52e8a370fc4636ac011f15f12f639a5e682f1a0d0d444ed74d344e16712b869a",
+      "size": 473
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/Defs.h",
+      "sha256": "e8af54841e81e08d3280d6f45997e9f38424241b92bfff5d61032570941d1e1d",
+      "size": 756
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/JSONStreamReader.h",
+      "sha256": "96a40aaec69a655145163a19652347f18647d0c714b060509b78114ab6dcb987",
+      "size": 1525
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/JSONStreamWriter.h",
+      "sha256": "6919023220fdfa81f55f572757e38478506e1a8979dcf7e3ce250a8c90b72a6b",
+      "size": 1688
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/BehaviorReader.h",
+      "sha256": "6e6308041cc3950d69243099ffdc4e582aa3f36077db0a7d513e30db7ce08636",
+      "size": 10565
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/BehaviorWriter.h",
+      "sha256": "1422039644205f90fc303f419da8e4f5c1929e4456407d4096296f0466fe576c",
+      "size": 15147
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/DefinitionReader.h",
+      "sha256": "4037cd43f4ecaef12646ff72820c43b90022e7fa7d3db84aee04fe45b5d4d47f",
+      "size": 12689
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/DefinitionWriter.h",
+      "sha256": "9478d3fdef146fb58fa7f21982b145aefb59ae92031aeabbc580b357cc5ee8e6",
+      "size": 15688
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/Descriptor.h",
+      "sha256": "c9565ddad8cb70403150c00b6b2701472aab80526210165504c35ce367d4a95d",
+      "size": 586
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/DescriptorReader.h",
+      "sha256": "5a0e265491311c967e3e8abd958207e5df3e2bc44de5013615c686ee8d59dfd9",
+      "size": 3075
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/DescriptorWriter.h",
+      "sha256": "7c54b5f25fbd708fc3b8c793d7218088f0e97f67dbcf5ad38af08ddab17d6498",
+      "size": 3193
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/Geometry.h",
+      "sha256": "4f3281e11271ac7f89add7ca00fe3acc324a9659658049ec4241a306a058369c",
+      "size": 429
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/GeometryReader.h",
+      "sha256": "e90ca6d44f6d465e9c6f232fdacb5b9c0c923ca20a406a3252df8cf1b6513406",
+      "size": 23383
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/layers/GeometryWriter.h",
+      "sha256": "7f6aba62cfd7c282719e1763b61b01c651105b229e9c75ded45e3ba167d22632",
+      "size": 12757
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/Reader.h",
+      "sha256": "0efdacdfbf7cb63cbd2c1f6a41333222f5fd57a8516ae04a452929d435bcbf93",
+      "size": 1104
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/StreamReader.h",
+      "sha256": "bfc88b4b1117fac4eaf15dd9cfbdbf6fb88a0277ebb40023b8f2de60553fffda",
+      "size": 635
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/StreamWriter.h",
+      "sha256": "58b4e6b1cc5a907ee9d1c0af568197c04e66f4ca857761f9562e37b59b2f86bb",
+      "size": 419
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/types/Aliases.h",
+      "sha256": "408288d97303b7b608376fee04b851bc5f3fcf33d00fbf7bb493e60c76838bdf",
+      "size": 760
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/types/ArrayView.h",
+      "sha256": "9c22eedad5e06ac8ada18c0f912973b218d44c92e725687d4ee481a540fb54e3",
+      "size": 8266
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/types/StringView.h",
+      "sha256": "03ba28407c62420a2c1e0c57b737a9d6ca74d0073ac08ed7d0ef782a01d71f54",
+      "size": 709
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/types/Vector3.h",
+      "sha256": "3695786571b6f4aebc843e8866a1a80b9f2293817718bb21ef735492b4894303",
+      "size": 2189
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/version/Version.h",
+      "sha256": "113a92ae2ed5d1594fa4874df03d35089c92e65afb437b2f0f5a801d20e775c9",
+      "size": 193
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dna/Writer.h",
+      "sha256": "4f7ea02f3be1dd30a81e0155409747745be8624a85a59a30490e57d7e5cd66ca",
+      "size": 1762
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/Command.h",
+      "sha256": "7f37cb449848bbdd323373153632b5ede8a4415b91bde8770c2dffe37c569c55",
+      "size": 485
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/CalculateMeshLowerLODsCommand.h",
+      "sha256": "c83458b781ab072fb543f8987b8b24e44f1c54d97c3c3eafbd137324dbb64bde",
+      "size": 1609
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/ClearBlendShapesCommand.h",
+      "sha256": "72c1d7c6da0f9c42611b515a656cc81d05ad57940a839dec40c54f7232b8ae99",
+      "size": 1152
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/CommandSequence.h",
+      "sha256": "a81613b4c2bd735c085dd52fce7de8724b8f6832b10a994c3e1771308f525657",
+      "size": 3056
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/ConditionalCommand.h",
+      "sha256": "ba3e03942ee9f7627c62d4a495c5c7977c9eec072d15204446ff9da7aead33f9",
+      "size": 2094
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/PruneBlendShapeTargetsCommand.h",
+      "sha256": "c04f3454319b132916bc7d14101c162741915cd2df6af81e20a3bac27043d4c9",
+      "size": 1493
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RemoveAnimatedMapCommand.h",
+      "sha256": "6e45ccbeca03130b41c9e420f9bfab4c8bf622bfc7f2b0ee1cc19b3dd6079d2e",
+      "size": 2077
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RemoveBlendShapeCommand.h",
+      "sha256": "d332fd91e739f871a3ed09781ba58dc735dc4a98c711902c31c75d99630ab2c3",
+      "size": 2048
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RemoveJointAnimationCommand.h",
+      "sha256": "b5653047e0923be4bff44255303b8f04a7512b879c33bf5a2550714710bcd865",
+      "size": 2096
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RemoveJointCommand.h",
+      "sha256": "3c9bcfd9a1227406b6955f43f5b4cccebd7ea41d9fcdbb287ba292f3a8812273",
+      "size": 1896
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RemoveMeshCommand.h",
+      "sha256": "ecdb52a1bcd38388a3dd8862d4420838f26cdf087f624430ab7174eb7f18e8f3",
+      "size": 1733
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RenameAnimatedMapCommand.h",
+      "sha256": "4ae17b2a3d826f1d795b3f542cf3da8238e5670b4f27ed6cd9768bf7b83019d8",
+      "size": 2118
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RenameBlendShapeCommand.h",
+      "sha256": "047025c6b83ffca6ba69eb19bd013b39272ee6154bb2670347e6755e7830c2c4",
+      "size": 2156
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RenameJointCommand.h",
+      "sha256": "efb133885f207135f3f5cfaa93373ce17d87ccdaff8f95f11d0085fcfb6f3f84",
+      "size": 1959
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RenameMeshCommand.h",
+      "sha256": "1ff775fc6489fa99fdb9c1cd90ae1eda40a6ce1a58c45dd69730b0651835ad0a",
+      "size": 1934
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/RotateCommand.h",
+      "sha256": "13f85fc0548708aac53205a976662bf7359c1ba68aa2dab3312d5a378f2bfc9d",
+      "size": 1653
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/ScaleCommand.h",
+      "sha256": "b9175070046e2e9706116d60ab75e0c10cf961bd878c905ed26c0b82f15bbb51",
+      "size": 1601
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/SetBlendShapeTargetDeltasCommand.h",
+      "sha256": "8e1b0c3aeee5a3ed4e8deb793892b371b291424bf90be3f4f8744a301d233ee6",
+      "size": 6723
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/SetLODsCommand.h",
+      "sha256": "57c4d74a30b98cd3b908338ff23a582ffcbc96838b5ce7e653d169fabc51d209",
+      "size": 1299
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/SetNeutralJointRotationsCommand.h",
+      "sha256": "e90349e954b063c71ebc82509e974b4a92817d28a39806d26154fe3edb5c7dc8",
+      "size": 2217
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/SetNeutralJointTranslationsCommand.h",
+      "sha256": "fe950295de01a376dc42f285d0985ad17b9a503efb8bafdfde24f326e81f866e",
+      "size": 2304
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/SetSkinWeightsCommand.h",
+      "sha256": "3b97daa9d2d727fcff1cad22f915535b6e3b07e98563162a4e3fcc66ec68c538",
+      "size": 2426
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/SetVertexPositionsCommand.h",
+      "sha256": "8662100425d04a63f057d4d8aced74df5ddf7a3143c419dc399506c1e49004a6",
+      "size": 4955
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/TranslateCommand.h",
+      "sha256": "1d6a5f309c4b6697f7b92f481db965244dacd03e527c99e2e4c60f56f739918c",
+      "size": 1403
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/commands/VectorOperations.h",
+      "sha256": "9d0942acb2b2b6a4daeb6326b670907ae7a4a363a08ca4f033783a26d3d9b5a3",
+      "size": 205
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/Defs.h",
+      "sha256": "68030df7836ca5c64491722f143b88e2806a37a6ad0549b81314822f107728c3",
+      "size": 759
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/dna/DNACalibDNAReader.h",
+      "sha256": "50ccc611f130b742d4556485a6441b2a7db3f0fef5bf202aab8d19187bc6fa8b",
+      "size": 891
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/DNACalib.h",
+      "sha256": "9454c96a1524af75458c458e018d675c00c33f607dc0c7824eb622061890b50b",
+      "size": 1414
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/types/Aliases.h",
+      "sha256": "17c8ae9f6782281670dbc18a356e3093eab35467dd565e7ea056ac0d3fec870a",
+      "size": 1377
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/version/Version.h",
+      "sha256": "353f1013e0128cc98671627d3a8e4ead4b617f33f74bb3993b1704c9b5be0d8e",
+      "size": 197
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/dnacalib/version/VersionInfo.h",
+      "sha256": "10e5a893cfd960448dd458e04bb798880d193c7f5b8127a26d8c3e6b165542bc",
+      "size": 363
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/Defs.h",
+      "sha256": "d76122bcaee548e812a9e1afc79b98e06064da6a9b1b37b293e240bf88c8bab9",
+      "size": 756
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/MemoryResource.h",
+      "sha256": "bf66aedd81b0733f38cf43f1b1e65f10805a4d45814be7be88e97f8e16d5d6da",
+      "size": 697
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/PolyAllocator.h",
+      "sha256": "23e31cd1f96574d8f0e495f5c995ad7d30da6e7ad0b00dfb26cb1d324ba99260",
+      "size": 6237
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/resources/AlignedMemoryResource.h",
+      "sha256": "4e01304e20187ccad756bef423f4c428c695aab3063cba7986197e4d4d44d5a9",
+      "size": 532
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/resources/ArenaMemoryResource.h",
+      "sha256": "7a872f7bf2592d20d051ded4df5e1b4e8b1ffe53835aa9bea29cef7b86c3e3c7",
+      "size": 4380
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/resources/DefaultMemoryResource.h",
+      "sha256": "cad11f1fbc7a68b41274d363a836efc4d83b1236ae26ef2572d71d00f803cab4",
+      "size": 529
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/ScopedPtr.h",
+      "sha256": "4db7bbee1889e5b6b0ba16495c56f5106b767551ae0dec85dbae6d6e5d485f8a",
+      "size": 8916
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/TypeDefs.h",
+      "sha256": "6588dee1bb8835c2fed4475487cc95ff0761dc650b976ab6aaa615fa9f4fe6e4",
+      "size": 1514
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/utils/ManagedInstance.h",
+      "sha256": "868d39ccd378c05a76dc953d00dffb6f6680c49e40465f3a97e31e9c856c7d43",
+      "size": 1543
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/pma/version/Version.h",
+      "sha256": "5909aae7c8d29e26526ab53150108a2202f826e283ab78f7557f36514a70144c",
+      "size": 193
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/status/Defs.h",
+      "sha256": "845c29bc66b4d9a9d07ecb002f21d30a0286adeb7260a22269b0858d3e8d7dca",
+      "size": 753
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/status/Provider.h",
+      "sha256": "54b4858e6cf42b4d16b2e507af5e64b16cef135c73438bf65cbe9631ebd89e36",
+      "size": 1539
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/status/Status.h",
+      "sha256": "0e2588c1b06c9b130cc16ba88ff06af3c2ee62250fbe4777bb5e4fdaa7464c91",
+      "size": 272
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/status/StatusCode.h",
+      "sha256": "8f3e24c1aa3bb0b498b9efddd26b0a78a52d361ea0e91efba8ac182de04a8558",
+      "size": 449
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/status/version/Version.h",
+      "sha256": "fe0baded0c05525de186e2052b2a4f2ec517d58360a5d4d11f61892254f5fc7c",
+      "size": 189
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/Concepts.h",
+      "sha256": "28ce527d8b9cbda8ecd5688185113e7efc8dbd86b8a2bf9f2d3fef255e16d055",
+      "size": 3980
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/Defs.h",
+      "sha256": "e192702d14c1820857adb72ea7880aaf7d472eee7009826b7105a82cc9fc3d2b",
+      "size": 759
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/Stream.h",
+      "sha256": "2873a057b3d84444eb9f30dbcc0e2e2848edf2cf75c351e09c5c83bf416c574b",
+      "size": 788
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/streams/FileStream.h",
+      "sha256": "a7591a85436f310c4f01807aa2a92db836cf83867b19ead2b3e923bf3243cf9e",
+      "size": 2006
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/streams/MemoryMappedFileStream.h",
+      "sha256": "922d3d64b77cf754dfff6406ffe45d21535143261187726af87a42ca7698d97e",
+      "size": 2193
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/streams/MemoryStream.h",
+      "sha256": "c98145d8e0ae7569160402ad589538237f3c11d50da53c634a50287a665ac20e",
+      "size": 2375
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/types/Aliases.h",
+      "sha256": "c897e14a70fb6095f47f90228de39219df4950ad248745e266f2fae673720652",
+      "size": 280
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/types/Parameters.h",
+      "sha256": "491d488c145590da67fbacc9b0034c8d6d0a33d417b8522d68ec66bd16f4c5f5",
+      "size": 253
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/utils/StreamScope.h",
+      "sha256": "f834d581ae58d40adc548138575badd6d021f8aad9ceeb03fb4f95c9c0674c9b",
+      "size": 875
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/include/trio/version/Version.h",
+      "sha256": "17777c1b7f4a36399c1517dc280808107ebad1ad4d09ff2bd04f27761672440a",
+      "size": 197
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/README.md",
+      "sha256": "9e6fb4f93ab24b6a5ba2aa12369771aacd4681560df0857bdb5f5ebbc659775a",
+      "size": 318
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/BaseImpl.h",
+      "sha256": "f0ab2ebc76ce74e9dec35995af6e9ad34750eb34b4267ce2efe8161fc6e7186c",
+      "size": 734
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/DataLayerBitmask.h",
+      "sha256": "9ba7a7eba1c0d3601e80458b02c4332fe9b9c01945419f4cc45a0f28face5bb2",
+      "size": 1566
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/DenormalizedData.h",
+      "sha256": "744898f513e0cbded8f939d05bb16db4a072e3093f68e6e4c04af16a15347cb1",
+      "size": 3550
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/DNA.h",
+      "sha256": "0d6667e6c46ef8537b9241cfa4291a2450272f6cccc6f9595909ba321b5c800d",
+      "size": 24601
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/AnimatedMapFilter.cpp",
+      "sha256": "f7694d10c00fa1d5809ad4c33ba62c54ec99d141e220b496b9b2f5a1870dea88",
+      "size": 1353
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/AnimatedMapFilter.h",
+      "sha256": "48c80bb33686359f1e8f4cc45216fbf5f06561989e596aab6388d487fdd12521",
+      "size": 670
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/BlendShapeFilter.cpp",
+      "sha256": "efb020500d75e688b7d6fece53d9a2a4488c0674242e638e307f19b15d7b2d0e",
+      "size": 1757
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/BlendShapeFilter.h",
+      "sha256": "b84a3350a93a03630be5400d91c144a482afe6a7fdad68cc8a0f160ee65c0710",
+      "size": 666
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/JointFilter.cpp",
+      "sha256": "348b296c188cb2648dd612324afe77728a28c61e93e571f8b9c32a210a4b2c21",
+      "size": 7221
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/JointFilter.h",
+      "sha256": "b4db89b70203363b779a40f288da428b52e32a0b12291c89bb26bed2e559c139",
+      "size": 1115
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/MeshFilter.cpp",
+      "sha256": "4b0eb3579fedd393643b7254d97cd74f1c902dd339c44a502b19c5193deed2fd",
+      "size": 1668
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/MeshFilter.h",
+      "sha256": "79e34ec5d276fc50e5c2c01e457090e7b1ffe99353ed9ed53a0733130dc016ad",
+      "size": 642
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/filters/Remap.h",
+      "sha256": "ed782bf485d66f2fad41e493400a80da3fe6a13852f39248febfa851d4139b16",
+      "size": 522
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/LODConstraint.cpp",
+      "sha256": "b05b41b9513e4b716cab14defbffb83e740ad8ca52d9b1b1fcdc3d2e26eb7da3",
+      "size": 2048
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/LODConstraint.h",
+      "sha256": "06b51ac6d0ecfc6ec7f79dc76317569d516383b5605353ce683a5f6f066fc284",
+      "size": 812
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/LODMapping.cpp",
+      "sha256": "66e4fb4154f6b99143d99ca7c2f725f5982c33db28bb868c989876bce23e3d50",
+      "size": 3603
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/LODMapping.h",
+      "sha256": "2a916e52ae9f45446b9c0c9d337e2c38fd474c4d9a1afa6bf0e3de01c8e5f7f2",
+      "size": 1722
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/Reader.cpp",
+      "sha256": "cc4eddea715b5d538eb34f61ad6f2e94af5dbdb61a58065a4f207db8a86120d3",
+      "size": 345
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/ReaderImpl.h",
+      "sha256": "fb9de10234a38239cd92bb5482a8dd6d0ec956fad0ce5213b78a1d2e71d6c052",
+      "size": 43772
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/BinaryStreamReaderImpl.cpp",
+      "sha256": "16199af27c1410921770ffcc5afb5891ca8e5bcc8096e667c4ed98b401901712",
+      "size": 5189
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/BinaryStreamReaderImpl.h",
+      "sha256": "ec419bd83c2f4ff2f53b4dea8be675f574f7ebf891ba6c44d4f7f118ab072615",
+      "size": 1169
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/BinaryStreamWriterImpl.cpp",
+      "sha256": "670379e5fd9f2b57f5e5efd8ae1014c57b272ed034b68276ba4e7759c4f88ccd",
+      "size": 1190
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/BinaryStreamWriterImpl.h",
+      "sha256": "859fe2f6bb99aa5959e8e67f7d1360a45c23687d47da1447589d94431d242499",
+      "size": 575
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/FilteredInputArchive.cpp",
+      "sha256": "1e5738e1903f725b63007af0034397f8bde0e24fc3dd2f78a22b608f33dd8c69",
+      "size": 12497
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/FilteredInputArchive.h",
+      "sha256": "aba4ee4e32fc025ad6ad9ebef6ee5bf8692e56c1b4921c01eb78ac8e04fa8be2",
+      "size": 3069
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/JSONStreamReaderImpl.cpp",
+      "sha256": "22d187fc26934180253d99225ddd942847bcb0f76435696ce9340149ed41bde5",
+      "size": 3006
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/JSONStreamReaderImpl.h",
+      "sha256": "4fd56d800fa11ed7e2dbebe12dd09978d03314b5ceab486d60b78ecb34c29fc9",
+      "size": 686
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/JSONStreamWriterImpl.cpp",
+      "sha256": "be9a31fdd3d04733e157e5c35edd58b5a96e944dd129c06731f97cbd945305f4",
+      "size": 1244
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/JSONStreamWriterImpl.h",
+      "sha256": "6fa42dd21b06ec9fb204990f3ee715473464bce984ad9cd3923437e412e99fe3",
+      "size": 590
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/StreamReader.cpp",
+      "sha256": "94ad4ba763bb465c8cde79aace1bff996e887d5a846ae107f41b44acb5188033",
+      "size": 493
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/stream/StreamWriter.cpp",
+      "sha256": "3bf809cc4d068c2bd1c47d59138a249d8d4b5b051fc4bae265f9395bfe4bdedc",
+      "size": 171
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/SurjectiveMapping.h",
+      "sha256": "3570908e4b5ce01b6b618f84bce845ad3a0b2af6c8f7327fc63c6145fb2a3132",
+      "size": 2535
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/TypeDefs.h",
+      "sha256": "a309cb34172329503f29fd80a92029fd2ba8d5135b77aa958e89feeabe76ac15",
+      "size": 681
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/types/Limits.h",
+      "sha256": "1cbe006db534446314eebe2478e312f6b002a6f72f9ac34ece4a399a460be25f",
+      "size": 305
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/utils/Extd.h",
+      "sha256": "7bfd5c59d9c6edbab4409ab3d87bf257e645557cb1a557efad283d4c182c4a0b",
+      "size": 4759
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/utils/ScopedEnumEx.h",
+      "sha256": "f6cd674ef15a89d3ddaf8048247d15a877b36a21f9761722c97e6003983267e3",
+      "size": 1928
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/Writer.cpp",
+      "sha256": "517d10aeec3518ee1feef6ebf46e7b37740f5071b722b9295bfe7def95e3f0a9",
+      "size": 22926
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dna/WriterImpl.h",
+      "sha256": "a62725ba77d2071c541b3b8e94249faf4fd60ec756941fbcb2a9187100a31999",
+      "size": 36046
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/Command.cpp",
+      "sha256": "eabb8f4a9f315c6b97c90075f8e87111fe08cc81f36211de366f1a8f10255655",
+      "size": 163
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/CommandImplBase.h",
+      "sha256": "d718ccf60c6fb5b94a24d329db4990190db1f2981129de6bfd4ab14b7328b790",
+      "size": 849
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/CalculateMeshLowerLODsCommand.cpp",
+      "sha256": "be0277edf415cf5e6efe1e616e67c91b71b4ffd1e8e3f4a14ad959ecc84af8bb",
+      "size": 11114
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/CalculateMeshLowerLODsCommandImpl.cpp",
+      "sha256": "34a03b070269c11197374a24dabf94845579b6fffe22d203484c177820f64afc",
+      "size": 2053
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/CalculateMeshLowerLODsCommandImpl.h",
+      "sha256": "450d237dfd3ff3c4a2132a68001e3a3e980601a510724d4616c4154e825fdf75",
+      "size": 682
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/ClearBlendShapesCommand.cpp",
+      "sha256": "03bc198998815ac4c29a5edb5c644acb4c14e3af8fef8cf9d88025e5fec81e3d",
+      "size": 1808
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/CommandSequence.cpp",
+      "sha256": "498ec122592551d2388fb4c4d99e589fea88953cef41459035ca4abf97268797",
+      "size": 2235
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/PruneBlendShapeTargetsCommand.cpp",
+      "sha256": "f2ba63e17eab74b5becc103be37bff734448fef15679a7d4e045b5078ccec044",
+      "size": 1717
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RemoveAnimatedMapCommand.cpp",
+      "sha256": "b35206b1b619eced83d7818955768ab019efaf4a4da58098b4c26e6d508a36ad",
+      "size": 2456
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RemoveBlendShapeCommand.cpp",
+      "sha256": "9ff2b126ab6c7b6037e93a195c06e18aa243f1329698d7b1c5e6d12f776e7811",
+      "size": 2409
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RemoveJointAnimationCommand.cpp",
+      "sha256": "3f25518b7bef28a3d0f53a8f710ec1fece93446b8d1d5f5e0e330d7d75138ac9",
+      "size": 2354
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RemoveJointCommand.cpp",
+      "sha256": "f8373da6cf83051ad0b92cd913283693edf77be0606a2cd60c476266dc658b10",
+      "size": 2174
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RemoveMeshCommand.cpp",
+      "sha256": "1fc031bd852f0714782eceaf7158a703c9344e30befcc8d755556a80a8ae2c1e",
+      "size": 2128
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RenameAnimatedMapCommand.cpp",
+      "sha256": "61841617bc810a36d4d060d2a3970173de9dc92aa27d7954e98c70c49dc882b0",
+      "size": 2448
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RenameBlendShapeCommand.cpp",
+      "sha256": "cd4f691fd4bec36cdbecd9edb9eed03ca5fce2d66d06353aa9ac97506190c482",
+      "size": 2443
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RenameJointCommand.cpp",
+      "sha256": "2ed11a1bb0b6620c62b27085092ac45f29c489a45e8a198290e6a23c1cd6bf05",
+      "size": 2292
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RenameMeshCommand.cpp",
+      "sha256": "a9bc2a739fbc8d456c274ba708f0edc1717d747181944b2e890a4b28c28ad29a",
+      "size": 2266
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RenameResourceCommand.h",
+      "sha256": "8a1f87673f6ca83d1230d4b640c717075ed4e2bd2ec5f87c27ebe1e24ad11e1a",
+      "size": 2815
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/RotateCommand.cpp",
+      "sha256": "6794086c0c901154950e8544bddd964a76680c42d488bf251a7ef484ab416af7",
+      "size": 6996
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/ScaleCommand.cpp",
+      "sha256": "ce51f62dc9c3827a573a52f1416f338a3a1a03121895a424f7a65325cdfd9714",
+      "size": 7092
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SetBlendShapeTargetDeltasCommand.cpp",
+      "sha256": "9211c61e4c24e68887e1abbd16d096d56880d98bb76db4b903a32f0dde604420",
+      "size": 15536
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SetLODsCommand.cpp",
+      "sha256": "24b769758215041ca1a49888c0b2bdda9973dd3b5ce94ec6a2f15f595932cafa",
+      "size": 2215
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SetNeutralJointRotationsCommand.cpp",
+      "sha256": "1c7c40426e1329f181fff12dfb99a070dfaa14739ae027bfcf2257dc5bf160f6",
+      "size": 2962
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SetNeutralJointTranslationsCommand.cpp",
+      "sha256": "f942f0d03ce4f95ce8c30a1bb06a5771ca1192163b08f2e82f5a62e43b7810dd",
+      "size": 3306
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SetSkinWeightsCommand.cpp",
+      "sha256": "c6a1adcd170075f8344a8a7816c713e5ee06ba290ba099c05892490a494ac1f9",
+      "size": 3279
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SetVertexPositionsCommand.cpp",
+      "sha256": "5516fce931c4145932b790fa2d266e16f7ec1a1197bd1e7dba023f7909428a30",
+      "size": 7717
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/SupportFactories.h",
+      "sha256": "a0a765c66035a49072adfa2f95e45a48101daa27ee7f7d87e408f103ef574af0",
+      "size": 2055
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/commands/TranslateCommand.cpp",
+      "sha256": "90238bedcc1fb0d8bf079050ac1f14c92982c39ab1861d65d33e788911cbc4cb",
+      "size": 3131
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/BaseImpl.h",
+      "sha256": "b984c5be25772c34ba611fc771108722614fe6372387e21da7c889a5ee7867a7",
+      "size": 750
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/DenormalizedData.h",
+      "sha256": "9c6683ebbd75843f2152abebcd46db69140cb320a191d30a9f23167f52e28e43",
+      "size": 3586
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/DNA.h",
+      "sha256": "0362ce318256862ea7eaee2fee169b1ceb9689d5679050b3feebadecda1e5502",
+      "size": 24626
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/DNACalibDNAReaderImpl.cpp",
+      "sha256": "3b6d83bc38abe3234f1f3a036fdf91561ac4e37ebd783f951d850d6033979f36",
+      "size": 14739
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/DNACalibDNAReaderImpl.h",
+      "sha256": "949b0aea866dca52914a2d953a9463d709af1ecc537fe4fee22549818169946a",
+      "size": 3441
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/AnimatedMapFilter.cpp",
+      "sha256": "e70024b02faede0972f2db3f8ecb5b343215a4053473c98ca3718c9227ffcd8d",
+      "size": 4006
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/AnimatedMapFilter.h",
+      "sha256": "867b693ebe7d6539dbf3887ecc3e1e596c7ba087696a4bba12f7959acd36fb00",
+      "size": 874
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/BlendShapeFilter.cpp",
+      "sha256": "ab72b7cb6ce5659c5aca89139b892a5b1a16420af42e6964fae7fed29ff492f4",
+      "size": 3562
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/BlendShapeFilter.h",
+      "sha256": "3d23afff54714adb53d3e7d14c239e27e7035e0123981db3449a8d8f86d51c64",
+      "size": 923
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/JointFilter.cpp",
+      "sha256": "b4c96630965e6233153b6173845dbac5fb48b1b520f6dda1e09b6f58c51eb420",
+      "size": 7260
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/JointFilter.h",
+      "sha256": "f4c722dd6cea1e475c9316be57fbcf836609763c613c4c58468e656d0d7dc52f",
+      "size": 1122
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/MeshFilter.cpp",
+      "sha256": "f8d657fe8cafbfc9982feceadbf7433400a3aa15acc7c5ef7d5ca136af16d920",
+      "size": 1707
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/MeshFilter.h",
+      "sha256": "e0e79fab9a0aa633bf17502ec05961bed49244106c0c0986a361d6a46bb1d9ad",
+      "size": 649
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/filters/Remap.h",
+      "sha256": "23fcb5d3fd0a084d5cad4e4f9110a40143a6f7e9669a7697bf21fd6120df9802",
+      "size": 534
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/LODConstraint.cpp",
+      "sha256": "de3a3290c0e488391828e57d2c3199d2766355b4b946776bbcc0b56ecebbbc68",
+      "size": 2064
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/LODConstraint.h",
+      "sha256": "12ae2e9457362318acedd3576e566eac669c1e8c7a6a570b78623eda8b31570e",
+      "size": 819
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/LODMapping.cpp",
+      "sha256": "1e774f06b7c1dd5ca80ee5ef6648c102bf3b7ae45ee967e6d8e9677559f44a6a",
+      "size": 3633
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/LODMapping.h",
+      "sha256": "e7c903162325e40fce0e15e73cd01f59e4b153c28e1cc387d9da5451727ac685",
+      "size": 1729
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/ReaderImpl.h",
+      "sha256": "c3f575a15ac9b279363dd7a0720e2baa9e5bbc917ff2396df3758d4953d17bab",
+      "size": 44782
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/SurjectiveMapping.h",
+      "sha256": "01e47a2d3df78ad3b824f506b3eb6a2c553eba02fed76ce37a338c56d479f08a",
+      "size": 2542
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/dna/WriterImpl.h",
+      "sha256": "8afc4f484aaddac20ad99e2a604cacc27f7871697f66ef4942b684663abff62a",
+      "size": 36033
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/TypeDefs.h",
+      "sha256": "c54f8a9f6e615632c914b1de934296a577f6f34333535f57da8683b6e6955c3b",
+      "size": 762
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/types/BoundingBox.h",
+      "sha256": "d4b4fd243c2d0ec9d2566d3771f2c59a7108557dfc394674a66c3ffba3815c9b",
+      "size": 2422
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/types/Triangle.cpp",
+      "sha256": "6dc3b7221573e1edf28d31c55cf308b2c862f43b25e8c30ad1c69aef2b7c7c1c",
+      "size": 1111
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/types/Triangle.h",
+      "sha256": "80f24211e62fd9014552e5250505637f249d744a3d42e81c269854b940a47783",
+      "size": 723
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/types/UVBarycentricMapping.cpp",
+      "sha256": "efe15dd2037be08d0560ff76d003716d0fe86fd811429e95bf20b6a80847d728",
+      "size": 4132
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/types/UVBarycentricMapping.h",
+      "sha256": "d25793430011ab4b9247a17a1ca517784e9411121b5ab2c54130ea09a2d00a08",
+      "size": 1460
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/utils/Algorithm.h",
+      "sha256": "b95b55ed8151d755cdfdac2954e593dc9e991e4c957c7e64881cad92a7b0add2",
+      "size": 2220
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/utils/Extd.h",
+      "sha256": "b1a3bdf7cb10a5911ede47d85770d7fea20528406cf3d864a701ef3bba28db5f",
+      "size": 4737
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/utils/FormatString.h",
+      "sha256": "d8aa3bf90cc83ea981eb0b960c985d4fa8e87417b0c4e498b2e599bf15222479",
+      "size": 933
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/utils/ScopedEnumEx.h",
+      "sha256": "e46f6dc68d3516b406f20575cb79a35b356d09b9682c4512c26ffb245e2b17bf",
+      "size": 1930
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/dnacalib/version/VersionInfo.cpp",
+      "sha256": "8ba83ecfe1fac7348959284d5b823241500f48db85f3d4ad55ca1fd50fa39c83",
+      "size": 765
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/pma/MemoryResource.cpp",
+      "sha256": "ddd79d168e3ef31b7943b18dac1d9a71f0acbe599106d4eb8b24f9b0e75786de",
+      "size": 177
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/pma/resources/AlignedMemoryResource.cpp",
+      "sha256": "e0742c7c0979408e6a2d98a559c16d28a3448e481d0fe3eb829302bbc66536d2",
+      "size": 3948
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/pma/resources/ArenaMemoryResource.cpp",
+      "sha256": "70363d69e70f3dfb46de367f6369a941d9796ac3e137e6fa078630ff6e6c8ca3",
+      "size": 6172
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/pma/resources/DefaultMemoryResource.cpp",
+      "sha256": "4a869ae564684893892432fc715713bb3fb7b1e268525332829047ec4024f71a",
+      "size": 637
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/PredefinedCodes.h",
+      "sha256": "fe0b10fb2bd2b53d0ce2f2615bd0e13e3ca208573396a16f8f297f17aafcf3ce",
+      "size": 182
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/Provider.cpp",
+      "sha256": "c8d9c3de47878aa582972e51aca080e386636837258745557f21a4b153124509",
+      "size": 879
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/Registry.cpp",
+      "sha256": "64880ba9e61499e0ee88e4cf38ea426da9dbff3481873f1fa68fcd9e540ea7e4",
+      "size": 1490
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/Registry.h",
+      "sha256": "8acea2abda07b14d4d71031288ccaad11b03af196e806ae0e03f5d9e44646344",
+      "size": 345
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/Status.cpp",
+      "sha256": "f0b576655402e91810fb97a843a1221908b8f9bf60e67cc65a969d6a2fcfd177",
+      "size": 283
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/Storage.cpp",
+      "sha256": "019f6f2a749ea2d11458c046642271d5792f5577feed7add580f06460a50f814",
+      "size": 1475
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/status/Storage.h",
+      "sha256": "6987a2369793ddf7c84989a3711e916352d0e467924857c975eba452f12256ae",
+      "size": 398
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/Computations.h",
+      "sha256": "814da19e5cc6eb2876268c02e77cf73e6a3523ad600be878299cbba6bc27b0d0",
+      "size": 4128
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/Mat.h",
+      "sha256": "8e4863d82e4e5e47342efd5aa5a9631445b875f4fd10f7fff744bb5bf82f0a2f",
+      "size": 12588
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/TDM.h",
+      "sha256": "4581cd23c6fa0a53206c90ace348feee82abf55ed4ac755bba6d508919882cb7",
+      "size": 198
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/Transforms.h",
+      "sha256": "d3fdd34856f933a639c160740dafd13af468b6c7cb5670de1d1c2f8f0d1c8595",
+      "size": 5929
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/Types.h",
+      "sha256": "a7cc84258a8a11d5c51e0005ffa9a27e00aea3c3c65780af0bc067ad96847006",
+      "size": 1500
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/Vec.h",
+      "sha256": "4fb02d2ee2169c241c9a972cbc71fb878568783ddb2e7fab0f115a051765ceb1",
+      "size": 7338
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/tdm/version/Version.h",
+      "sha256": "0a97f5bce5bd34e524db4eb73bacd465a517a27b737a5937c5e444890e31fd8d",
+      "size": 193
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/Archive.h",
+      "sha256": "71ebe799825589ff3941ead4d7d99a05fa485d0d1fe12074ad89713f4b4b7bb4",
+      "size": 1743
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/archives/binary/InputArchive.h",
+      "sha256": "ede2f7ef8cdef5b507a4ca4c4da4bd210139dad6015e45a0eaeb5270693c5c16",
+      "size": 10793
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/archives/binary/OutputArchive.h",
+      "sha256": "a1c343a1f7bd0e16cf3e342ba77dc11e9445f1c45fbba48b37edbb6eeca4ee3a",
+      "size": 11545
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/archives/Common.h",
+      "sha256": "e87a5e941f7c8670e7ad5716b0672dc6c7ed8ed9a9b1e51b3359a516424c53d8",
+      "size": 2621
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/archives/json/InputArchive.h",
+      "sha256": "1cd356a96cf394be7824d68d709d309bc7e78e4b917e5022bac579ab0e04083e",
+      "size": 15625
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/archives/json/OutputArchive.h",
+      "sha256": "5726729bfa04ac44285b9b51eaf4220df37da5338d1a81dfebed92bf06cb3b92",
+      "size": 10284
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/archives/Traits.h",
+      "sha256": "39099ed78b2b04aded4cb89fa2ce95b2528c0752101c0d7ce5932f2e7790af1a",
+      "size": 4156
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/Anchor.h",
+      "sha256": "c04d23348f9658e0752d879f6ca862697cc2874a97cf5693bbef9d13e5af6307",
+      "size": 1796
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/ArchiveOffset.h",
+      "sha256": "6269bd462c845080e11f8abd1b5fef67f30ce8aaf840a1d1e28bbcf2759cc540",
+      "size": 3741
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/ArchiveSize.h",
+      "sha256": "23844aa0dc0b104f4ca94ab52ae0daec0b12ab4e8bab24f6fc5e3f70a34f11c4",
+      "size": 4838
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/Blob.h",
+      "sha256": "de23a0d719700d11a83e0883ddc2cec4f67ea9051009dfab4d35202e21594123",
+      "size": 1610
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/CharInputStreamBuf.h",
+      "sha256": "76efff7629044a33f9d51435973bb4645e22d2902fdd5ff28438169ce501cf45",
+      "size": 3658
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/CharOutputStreamBuf.h",
+      "sha256": "226dcbc47d907b278ce5e89d60c8b8d7defee932942ffff865746b12a38f337f",
+      "size": 2694
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/DynArray.h",
+      "sha256": "9c0c55a8846f0954a07bc6feb0dd79be40e38b29e0fe8afbf5143fbc68dc323e",
+      "size": 6796
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/types/Transparent.h",
+      "sha256": "7bfd7f0b0d1431c3acc02fe761368afc014abd2dc160faf7034eae3781885d00",
+      "size": 923
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/utils/Base64.h",
+      "sha256": "702111816ae84246917a0b2e7a18a93d03b2369009aff17e034446456a0697d4",
+      "size": 2266
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/utils/ByteSwap.h",
+      "sha256": "f638166f35cea2d6ce69e5e58a688d0ded4e1bdb0af3649e8f6e99b06de3eb4e",
+      "size": 5721
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/utils/Endianness.h",
+      "sha256": "9284f216c622d45cd7bfbd2237918932431e1c880a0f1fc8e31ec09d444cf9a3",
+      "size": 11517
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/utils/VirtualSerializerProxy.h",
+      "sha256": "2efb96273d3c674fc56874e051ab8dda50f10ac169fab5b33a62f772100d1941",
+      "size": 597
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/terse/version/Version.h",
+      "sha256": "1ad34c76c2e1a382dfbec089def65bd1e625cebfbfc474fda8995608f14ff97c",
+      "size": 201
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/Concepts.cpp",
+      "sha256": "bac50af01f9449cb4a4d1a9cd330ed772c19a15c1e87fbe5ddd5ea12dfafbf35",
+      "size": 444
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/Stream.cpp",
+      "sha256": "b644281a1948cf5f5186a773a5e636fab8d86ed1a6a8b8f8218d39af4a00aff0",
+      "size": 568
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/FileStreamImpl.cpp",
+      "sha256": "27c7bca914d1f8290c81f34bc5fa45330d8772caf463c9f0f007374c436db402",
+      "size": 6569
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/FileStreamImpl.h",
+      "sha256": "bff92b6a061bcae0e135db512565d9b7aa5c43e19087620bd3f4c818cf6b6cbb",
+      "size": 1475
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStream.cpp",
+      "sha256": "2659e43b1b8ab84f7f7c3089850c8b6f16582293c35f152a68b562767681f165",
+      "size": 1324
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStreamFallback.cpp",
+      "sha256": "7598d6229569048f31b7a491bdc406327fe01b4cbc09c68a62cfa4ef50eb1671",
+      "size": 2120
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStreamFallback.h",
+      "sha256": "8d6df7298789d5a3609018a4f5aa0824f8d5da1064eb59515b63b3adbc2ce56b",
+      "size": 1840
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStreamUnix.cpp",
+      "sha256": "b6fcfc88dde72617e64494030077dd16d1763f8c1d65bdde16415784115440a8",
+      "size": 14676
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStreamUnix.h",
+      "sha256": "31738fa4450590be0bf21c4416af7561c5c20a1843b7ddcb28ffac628d03234b",
+      "size": 2199
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStreamWindows.cpp",
+      "sha256": "cfe20ddc7f97d1c99ae89723ad28362b1729c1c10be8c7610c096b1a581e6f3f",
+      "size": 13926
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryMappedFileStreamWindows.h",
+      "sha256": "03e94686738578e1c6c5b2181567b05c75c004de9d072cdf7460d2fc4368a81d",
+      "size": 2354
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryStreamImpl.cpp",
+      "sha256": "3e5b62043c473723c0ba9a8bde1dbe82e2f31238256a5764ea730a8de4fa4c4f",
+      "size": 4894
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/MemoryStreamImpl.h",
+      "sha256": "05d177cfdb5a3bca7be651a868ad9b2bfbf5a47a5f8eb53588b40c38a248c0cd",
+      "size": 1289
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/StreamStatus.cpp",
+      "sha256": "ef0dc1fdbaee72c40413426b53090c2e1b916493b77a7276669a13518bd9a53d",
+      "size": 705
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/streams/StreamStatus.h",
+      "sha256": "051eb738ede46fe687135bb42d5940bf1dbe53744b777c8c7ca258bd2bf1f651",
+      "size": 365
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/utils/NativeString.h",
+      "sha256": "b4cf38f087182b1547a3a4a0b208725d63ea88ede3e950e61bd8c82d3ffe4bc4",
+      "size": 2236
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/utils/PlatformWindows.h",
+      "sha256": "8189c1539fffbbce777fbe7d3a54760ac3ff3191c0560aa678a0af52ff55cc40",
+      "size": 1241
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/DNACalib/src/trio/utils/ScopedEnumEx.h",
+      "sha256": "e060980b229256519517712e57ef7f9579b500e9c62771de85e51b1723f6a320",
+      "size": 1930
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/dnacalib.dll",
+      "sha256": "831e6a38172392f671cd099e1dff2fed7969c3670ca7304d5672ae452495c719",
+      "size": 504320
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/dnacalib.py",
+      "sha256": "852f46673dcf736699756a6e0e59c628ab1c29a69c63dedc6bc868c2af1027aa",
+      "size": 45595
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/py3dnacalib.exp",
+      "sha256": "188bcc1b13c93c5a4b76e7297b50648edf22ecab26b16056a383e98db18ef687",
+      "size": 844
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNA/CMakeLists.txt",
+      "sha256": "bcafff4e343789c0282ede73cf5c3d449097bd24c53bc96070d90112d3d63129",
+      "size": 161
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNA/python3/CMakeLists.txt",
+      "sha256": "95d03822ae1a7f5a45f40244122635c264e668bb1d754398894e7a50bd9d94cb",
+      "size": 2781
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNA/python3/DNA.i",
+      "sha256": "70cea1698ee771be8c985ba24b1d22c78d80e32be9ee6880bc14ea175f19d08b",
+      "size": 6278
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNA/python3/examples/demo.py",
+      "sha256": "456bf1d6b3f9a02edb1f44be950e141975b3bb48135f715d09f7c151ade5a65f",
+      "size": 2525
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNA/python3/Geometry.i",
+      "sha256": "3036fd078196f5a8f2f0cb2254b0555413058b66fab84a9d39d3b5adb93d8be2",
+      "size": 2751
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNA/README.md",
+      "sha256": "0ee7c7d8aa2d2df4fed8f8929316ee1f0d3ae4f382fcaa7dac2576fc2bbad124",
+      "size": 118
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/CMakeLists.txt",
+      "sha256": "50ba0b516bcc53090a7d44898dea5888bd10820a3edac8ad5a530c4cc4410ac9",
+      "size": 164
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/python3/CMakeLists.txt",
+      "sha256": "88977a341834c9833eec644a3daee4fdcef639ddc195311a0028a6866c3e307d",
+      "size": 3254
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/python3/DNACalib.i",
+      "sha256": "6b36122ec9df71c76e4d4f90b2a997ee65b0ba5ec7489f41f323c3314cc4fb81",
+      "size": 5255
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/python3/examples/clear_blend_shapes.py",
+      "sha256": "1b7ba73d99653ded4c0f21361102396ba0b73223c86a3819294b11c0d3630fcd",
+      "size": 5238
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/python3/examples/demo.py",
+      "sha256": "ec4b7b0b4ba9cca28bbc1e93a5479e7f6b9e44278e8b1e87fbc5340128c67bcc",
+      "size": 4865
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/python3/examples/remove_joint.py",
+      "sha256": "578a86d73ebfdd5eb4935dfac750e86ad6c19f352d9422d64e5895f4921f9a7e",
+      "size": 2519
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/PyDNACalib/README.md",
+      "sha256": "7e76983c568fac944241860a2dfe74cfe9814182dfa557e69ed2e81abba0d012",
+      "size": 128
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/CMakeLists.txt",
+      "sha256": "77005915b5ee2efb4fa537d5eea9eccab939d939cb42d6716592ba109a74e71f",
+      "size": 1826
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/include/spyus/ArrayView.i",
+      "sha256": "830879c221c8d911f410fae6717fb58a777ba5b6199a5bfebac3bc4c8e97af3d",
+      "size": 3056
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/include/spyus/Caster.i",
+      "sha256": "040997ecb55214ee5a9d4b7965af9cea94329707cd047092d4bf9854f531f469",
+      "size": 6717
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/include/spyus/ExceptionHandling.i",
+      "sha256": "a5699c91eb77ecd19f858fdbbd55cfe25c44a96a8afbe54ddd713a342e64a5af",
+      "size": 270
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/include/spyus/TDM.i",
+      "sha256": "3fc36f58318f8811c510d3b418b01c98357df549b41a5b2acc2d8391d046c694",
+      "size": 1372
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/include/spyus/Vector3.i",
+      "sha256": "ae2a0f5d6a4deecc253cf38390f61c89757e0562fd85e0774b6efec79c83c05a",
+      "size": 1359
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/dnacalib/SPyUS/README.md",
+      "sha256": "70f4f47635260783c1edf807ef8f0f56283fb9f92b208ba4b17d1e56b8118e3b",
+      "size": 32
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna.md",
+      "sha256": "fa63c88ec4b913f398ffff388365731daad28338b1077d416e12a1239c0eaf88",
+      "size": 11113
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna_api.md",
+      "sha256": "c00b3118649bebfc986a6050aa6c6fd10d342bc5b202eb30d57647dc006bd759",
+      "size": 31855
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna_viewer.md",
+      "sha256": "4aa9e1e6709b1414c5d8f477745f91611cf24753befdf32c73c1aaffbbc985dd",
+      "size": 1705
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna_viewer_API.md",
+      "sha256": "def26c91beff2cac2885e538131457ebd726fa14c90652fb687e5ec517356f48",
+      "size": 1773
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna_viewer_api_build_meshes.md",
+      "sha256": "fd14ca858ea143a90ea56fefa86fd4afe0b14f64b8a95cf903c58c119bf1de46",
+      "size": 3641
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna_viewer_api_build_rig.md",
+      "sha256": "2ccc2b2e16192e5218dda1b1608a3fc3b0f0000b56bb7e565f00b58508581a2c",
+      "size": 1617
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dna_viewer_maya.md",
+      "sha256": "dd1026f05331f8b3ffabc172dd5c3d12144ea31e4aa3ebe69eff991b0713397c",
+      "size": 563
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dnacalib.md",
+      "sha256": "1e307955c0c96e59bdd84fb64d034c1c6699250f91ff3bd2d789384f6634dbd0",
+      "size": 4516
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/dnacalib_api.md",
+      "sha256": "1cdd1e7e15f7498515cb3e43947a298e92db4bb77501e0e6af15492807d9698f",
+      "size": 4036
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/faq.md",
+      "sha256": "356c9853ba4b1a17e5c491dd4083d1860f3052cf9cff17d516197d543379838c",
+      "size": 1717
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/aas.png",
+      "sha256": "2cd7511eecc0042279fc59593111ed2573c554ccd53769cf3f76dbc751031acc",
+      "size": 529267
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/change_path_node_path.png",
+      "sha256": "84813d3ea83c4bcc32f72a92df5f5180567e7f7b85251ca227a0937927ada48c",
+      "size": 13613
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/change_path_outliner.png",
+      "sha256": "b2028da2cb2291c4ec14814f3ea487c2e2a985fdb85bc538db5c16efb927b717",
+      "size": 3728
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/change_path_outliner_settings.png",
+      "sha256": "c5448f1783dcc483428756eb03694bcdc6540c329dfecaeee66019536c40f2ba",
+      "size": 3571
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/flow_character_build.png",
+      "sha256": "85e3eff4f221838840db81f82a1016b6fdd13add0faeda44d16b35c1438e0589",
+      "size": 214384
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/flow_general.png",
+      "sha256": "3b6b96699dc4620bc5ea8219bdcb758add0b5a9ced356e330f0c653a56cd82f9",
+      "size": 79861
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/flow_scene_build.png",
+      "sha256": "0f5dc99378e9000ca795ae23a11d05ff974a21fa699d7c81e21ba4137cbb6658",
+      "size": 142235
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/layers.svg",
+      "sha256": "c4160070be0fe2ea59a034b0132570e79eb24c4e720a5d56e6b31f27334ee3df",
+      "size": 7217
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/maya_warn.png",
+      "sha256": "159af10b6c1ce0a7548a75ceae2829df90c3500b590f72ae83c5aa0cb70cbaa8",
+      "size": 10064
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/metahuman_008.png",
+      "sha256": "0a105ae6464461bd72d0d0df6e5e10e984f791466b275a9f2c59c38f8de2fd5e",
+      "size": 1638625
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/metahuman_010.png",
+      "sha256": "d398e0315d73be918d962ed44be15d273fdf09a584f0f60d2a1e27d782abcb48",
+      "size": 1737862
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/ui.png",
+      "sha256": "59b5a686947ed3089bd6a253847f93ea97a4b706aedb4b0ee810cf7dca9025d1",
+      "size": 13307
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/img/ui_extra_options.png",
+      "sha256": "6ed3d8d00263c567f95bc78768e4d0ae9373ac2dccb6c6e7a5ef8df5004f69ca",
+      "size": 15393
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/docs/repository_organization.md",
+      "sha256": "98478c2aba6ee234c219a54be99153d4551d477d0b7f42db80dfc669dc0d554e",
+      "size": 3058
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_binary_to_json_demo.py",
+      "sha256": "44d7abcdf24b46eaba078dec9f8d36f9be0fc87f4da2acc986f0a9cd0b38b2d9",
+      "size": 3498
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_demo.py",
+      "sha256": "ee9933a0755eab8f06a090223879f01beb18204457f192f5ff3c2c44957a2064",
+      "size": 3713
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_viewer_build_rig.py",
+      "sha256": "737bd701196e44145bb1fad16efe77af9d5a592a6564bd417dd32db3083c6090",
+      "size": 2621
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_viewer_build_rig_with_textures.py",
+      "sha256": "7dae9f3b0e6fa486989699b89a68d8440fab76317934da390683da8d493b33fd",
+      "size": 16946
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_viewer_export_fbx.py",
+      "sha256": "b7f128e92598140193a7df728780f34b43d572d07525975c1a2aa1cd8b6d5508",
+      "size": 9971
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_viewer_grab_changes_from_scene_and_propagate_to_dna.py",
+      "sha256": "52c60fe5e8b48a6077c6dda0aa4ce06adce62c9ef8e67b79530b55fafe850174",
+      "size": 8550
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dna_viewer_run_in_maya.py",
+      "sha256": "2054f9adb8825171cad05170182c6882e855f17c0ef6bad4e046b613b0050c37",
+      "size": 548
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dnacalib_clear_blend_shapes.py",
+      "sha256": "0815edb2e203d8afc8e3e7ce88582839fd04e0154288b16873c833d0be196d2d",
+      "size": 6032
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dnacalib_demo.py",
+      "sha256": "fd865bf81a215a85b269a9c48b324e22bc5d12658432627ee09b5384fd6a01b0",
+      "size": 5476
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dnacalib_lod_demo.py",
+      "sha256": "f508ae6e0ef292c6ced205bcab85ddb2eb1dfdf825e169cf6eac97da22e49b54",
+      "size": 2963
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dnacalib_neutral_mesh_subtract.py",
+      "sha256": "fea796b0d5bf3a6dfb7777836ae0a811f919b4b652532da56bc8ccd14de0fab7",
+      "size": 5415
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dnacalib_remove_joint.py",
+      "sha256": "15b88db1b324eedf0602022a545547baee6821e05fafa756ce85d0512e0c4598",
+      "size": 3268
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/examples/dnacalib_rename_joint_demo.py",
+      "sha256": "66c984c9cef8de32d1eb1a4784547879eb5aa6e41eb1ddc3998d3e7cf1461e15",
+      "size": 2634
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/linux/_py3dna.so",
+      "sha256": "2029af3459883a2fbc38729494c228594902af44b61636808c4e0669cb23ffba",
+      "size": 486216
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/linux/_py3dnacalib.so",
+      "sha256": "43a0e9b982b1b3080f82d8e8b66b2ae0ac99c467498e95600c8c7fbc70c3c878",
+      "size": 401896
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/linux/dna.py",
+      "sha256": "c530ab2df493db0308098daf877913968d082f50f2ced333bb26caac010f2ee5",
+      "size": 175887
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/linux/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/linux/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/linux/libembeddedRL4.so",
+      "sha256": "fa9c803cd362850074fd1bc3d99e32f256fc2e248d70c3853d8809ef439f9de7",
+      "size": 1898312
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/windows/dna.py",
+      "sha256": "7f3330faa905bc9197f99263d3182f82ba5ce06c605f1bb9fd21bc7dc1958f3a",
+      "size": 160677
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/windows/dnacalib.dll",
+      "sha256": "c4e20766bd4d8e0a9996fd35cf918399b67ce4e420991dc714b878b2bd4da873",
+      "size": 504320
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2022/windows/dnacalib.py",
+      "sha256": "9df6e41d167f99d752eb6487950b258c526d28f6b0a7b933ef0f4b91b03c6d8a",
+      "size": 45636
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/linux/_py3dna.so",
+      "sha256": "8a5c7df363362513c6b8a4555b2892e7d9fa0226c97759e1659f8f1d0fffe5d9",
+      "size": 486144
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/linux/_py3dnacalib.so",
+      "sha256": "6abb258b8ad88e5d91c2a2542b4bbad040a0f5e572e3b75462a489bd0fe6fef9",
+      "size": 393488
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/linux/dna.py",
+      "sha256": "c530ab2df493db0308098daf877913968d082f50f2ced333bb26caac010f2ee5",
+      "size": 175887
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/linux/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/linux/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/linux/libembeddedRL4.so",
+      "sha256": "83b356069ed3c978d452b36adf14426a2f3bcad598946f66ef6dd94c9c530ff0",
+      "size": 1898312
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/windows/dna.py",
+      "sha256": "0c2981ff031c5b125195e8c760fa8525f482bef46d3e21ffe7c3ec18b58a30c9",
+      "size": 160674
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/windows/dnacalib.dll",
+      "sha256": "831e6a38172392f671cd099e1dff2fed7969c3670ca7304d5672ae452495c719",
+      "size": 504320
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2023/windows/dnacalib.py",
+      "sha256": "9df6e41d167f99d752eb6487950b258c526d28f6b0a7b933ef0f4b91b03c6d8a",
+      "size": 45636
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/linux/_py3dna.so",
+      "sha256": "b3512bb39abf33536e0d02e74297b6d218dde6ee2596ad61ae7906068306accf",
+      "size": 486144
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/linux/_py3dnacalib.so",
+      "sha256": "e3f21edb64910a998ace5367f0c54cd89d9ddc79827e816c5888aba15ed09f01",
+      "size": 393488
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/linux/dna.py",
+      "sha256": "c530ab2df493db0308098daf877913968d082f50f2ced333bb26caac010f2ee5",
+      "size": 175887
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/linux/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/linux/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/linux/libembeddedRL4.so",
+      "sha256": "27ce6cb25975a2848743b194b953eb32629abf8c01ae93c703d2c92ffbc48619",
+      "size": 1914784
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/windows/dna.py",
+      "sha256": "7f3330faa905bc9197f99263d3182f82ba5ce06c605f1bb9fd21bc7dc1958f3a",
+      "size": 160677
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/windows/dnacalib.dll",
+      "sha256": "b9c55f96a9045b5df88ffec800d43fe4226c294fae9b2dda112742135059a112",
+      "size": 504320
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2024/windows/dnacalib.py",
+      "sha256": "9df6e41d167f99d752eb6487950b258c526d28f6b0a7b933ef0f4b91b03c6d8a",
+      "size": 45636
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/linux/_py3dna.so",
+      "sha256": "b3512bb39abf33536e0d02e74297b6d218dde6ee2596ad61ae7906068306accf",
+      "size": 486144
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/linux/_py3dnacalib.so",
+      "sha256": "e3f21edb64910a998ace5367f0c54cd89d9ddc79827e816c5888aba15ed09f01",
+      "size": 393488
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/linux/dna.py",
+      "sha256": "c530ab2df493db0308098daf877913968d082f50f2ced333bb26caac010f2ee5",
+      "size": 175887
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/linux/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/linux/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/linux/libembeddedRL4.so",
+      "sha256": "27ce6cb25975a2848743b194b953eb32629abf8c01ae93c703d2c92ffbc48619",
+      "size": 1914784
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/windows/dna.py",
+      "sha256": "7f3330faa905bc9197f99263d3182f82ba5ce06c605f1bb9fd21bc7dc1958f3a",
+      "size": 160677
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/windows/dnacalib.dll",
+      "sha256": "b9c55f96a9045b5df88ffec800d43fe4226c294fae9b2dda112742135059a112",
+      "size": 504320
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/lib/Maya2025/windows/dnacalib.py",
+      "sha256": "9df6e41d167f99d752eb6487950b258c526d28f6b0a7b933ef0f4b91b03c6d8a",
+      "size": 45636
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/LICENSE",
+      "sha256": "0fd1b171138bbb54c2d3f08d61341512c73a174111c9a389263d7c1211c210e6",
+      "size": 7812
+    },
+    {
+      "path": "external_tools/MetaHumanDNA/README.md",
+      "sha256": "50fde2305adf8af073d86e9c3c6fc9efe91bdfb5a6481d07f88fabe52eea8144",
+      "size": 8742
+    },
+    {
+      "path": "external_tools/MSLiveLink/__init__.py",
+      "sha256": "d9ee43cd6a6f62c0bf12a6cdf589502f62c5b7bcf54f8c6598647de5f471046d",
+      "size": 84
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/__init__.py",
+      "sha256": "e403d2b6b8234e52456bd167f5468ed82b49843674c56530449e005f46c614f9",
+      "size": 161
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/additional_assemble_script.py",
+      "sha256": "0d92286177678660caed62ee458cd25390890dac4f909364f4c0167d7363a116",
+      "size": 94396
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/flipflops/filplop_mtl_v001.ma",
+      "sha256": "fc36121e5a8d6d6d37fb384f64dcd52eb4b907f87289c8316ce7e295c35c4ee5",
+      "size": 64220
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Linux/body_shader.ma",
+      "sha256": "86379927339e734189af0c8dfda07b4efd39979765986d252233d3de91580328",
+      "size": 75802
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Linux/dh_lights.ma",
+      "sha256": "edc8cb6b70e0b7b450aebe5e8d9c5dc9c59b74559ee49d1600ea606e9deda18d",
+      "size": 78762
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Linux/head_ac.ma",
+      "sha256": "6fb0758654162457bf37d758e7c3fb8ccc9a4c1019b86a4111f4d73c84f295a8",
+      "size": 95627
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Linux/head_gui.ma",
+      "sha256": "3513cce10d4f168b99a5668c2fa1adede6fdb2ca73940bb11187038012667afa",
+      "size": 7790255
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Linux/head_shader.ma",
+      "sha256": "151e6a835b5d0f5dab39167cb3688b5bec8bf37edde2ec1cc94dae30092c1ad8",
+      "size": 150126
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Windows/body_shader.ma",
+      "sha256": "2671257a89e2b5d62a05ebb7339783ec2a7705b12dde61dcd6da0cedeeb982b5",
+      "size": 263937
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Windows/dh_lights.ma",
+      "sha256": "86d4a59b889256396e225df86424010d05fbbd3368b023375e49307613585d4c",
+      "size": 76147
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Windows/head_ac.ma",
+      "sha256": "b23484f0c0e1c944bb4e8b1786faecc17bf11385ffabc38cd285e43459bc791b",
+      "size": 95555
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Windows/head_gui.ma",
+      "sha256": "0313f257cd05320db32fba2d7fee38ec963478eafb508814ffaa3204c287221f",
+      "size": 7790357
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.2/Windows/head_shader.ma",
+      "sha256": "e91aaf318b2577e3444f81ba8cf6a2ad793d00db1349dd7779691f05860c58a6",
+      "size": 619978
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/additional_assemble_script.py",
+      "sha256": "45b85d4b1ad5efa5a4dda4e679d09056e0ff83f2cc07c910cfae6e92edb09f5d",
+      "size": 101247
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/flipflops/filplop_mtl_v001.ma",
+      "sha256": "fc36121e5a8d6d6d37fb384f64dcd52eb4b907f87289c8316ce7e295c35c4ee5",
+      "size": 64220
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Linux/body_shader.ma",
+      "sha256": "86379927339e734189af0c8dfda07b4efd39979765986d252233d3de91580328",
+      "size": 75802
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Linux/dh_lights.ma",
+      "sha256": "edc8cb6b70e0b7b450aebe5e8d9c5dc9c59b74559ee49d1600ea606e9deda18d",
+      "size": 78762
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Linux/head_ac.ma",
+      "sha256": "6fb0758654162457bf37d758e7c3fb8ccc9a4c1019b86a4111f4d73c84f295a8",
+      "size": 95627
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Linux/head_gui.ma",
+      "sha256": "67b52c3fc34b622e142c95f75ca03afff52837457d0d4dc643432c70494da85e",
+      "size": 8396898
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Linux/head_shader.ma",
+      "sha256": "151e6a835b5d0f5dab39167cb3688b5bec8bf37edde2ec1cc94dae30092c1ad8",
+      "size": 150126
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Windows/body_shader.ma",
+      "sha256": "eff305b4e7d660b761306c8ea3f97aa069f9df5734905692f257ca2f6802f324",
+      "size": 264554
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Windows/dh_lights.ma",
+      "sha256": "c61d0a4b52e0def36b3a6f357cec53ac98054ce79a4a1176328fd2770647dbbe",
+      "size": 76565
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Windows/head_ac.ma",
+      "sha256": "0b098b0186e2bf8511532aacd00a6904cd76c546e3ad8182c1745fdbbd1342ca",
+      "size": 96204
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Windows/head_gui.ma",
+      "sha256": "67b52c3fc34b622e142c95f75ca03afff52837457d0d4dc643432c70494da85e",
+      "size": 8396898
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/assets/MH.4/Windows/head_shader.ma",
+      "sha256": "a51fd93dd0eaa4ad4f8bccd6e53b9c1f14ce683a201be0d5496da364a03e3cab",
+      "size": 620220
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/characterConfig.py",
+      "sha256": "2b83e3279870cb8b8fbb5279e429b8e492de6f61dfe53239b5cad533390aec8a",
+      "size": 6054
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/__init__.py",
+      "sha256": "e2738154b372218a218d7cd9ba9f65d9b49677111667591c910e5cb7b54a709e",
+      "size": 17
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/consts.py",
+      "sha256": "32269d2e039800d79e13e59906e05ffacf26b61e10ad2e7b7c99c60094317d3f",
+      "size": 13539
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/error.py",
+      "sha256": "6ff540eb33ff6386b6712fa31f32e49063cabc288a218ea8919a2e8604a0aad1",
+      "size": 378
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/logger.py",
+      "sha256": "20e4398aa021046c1ed389b39f7b6c16fef911513dba8eb254d097a5d97e2dab",
+      "size": 1108
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/maya/adapter.py",
+      "sha256": "b242585a0d894e5ce976ded79302e9a1d1cfd980b249dd02e76e032436ea52fe",
+      "size": 18902
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/maya/skin_weights.py",
+      "sha256": "9c048410707ab3c406d5e1258e49ba0dd8dcb5940ef9a53e2e848170fdbffa90",
+      "size": 2856
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/maya/skin_weights_maya_handler.py",
+      "sha256": "0ad53fc2da165ccf5445eaaabfdef919dcb4e84ad9a83dbcc633484e33314e2e",
+      "size": 11267
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/progress_bar.py",
+      "sha256": "3e1c38a8ec74cf7467324550f728a42611b7caddfcc835d75001a7bb3a73fa1d",
+      "size": 512
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/core/util.py",
+      "sha256": "306c1a540fcbcd99d3779dfbdaabff7241d9de0fefbe9b087d69dfa74dc9e778",
+      "size": 8752
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/importer.py",
+      "sha256": "73676c1e560ff7aab0758a66fac07ea93fcdf93fd88e556eb4663786bd446b13",
+      "size": 24432
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/__init__.py",
+      "sha256": "96faea0491572339075b0181e54cdca7eb9dbfd21d2108cca7ff9cf197046c9e",
+      "size": 544
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/api.py",
+      "sha256": "b843fcaf1db07795bcecca8c14082c352cc0ce2d07fad699da686c474c0affa0",
+      "size": 1094
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/builder.py",
+      "sha256": "3aea5baa4e53aa4ac63827f14aba44bf9dad59073947ae7e8a03e526e412c399",
+      "size": 15508
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/config.py",
+      "sha256": "b49d9b16cc88159a064f02e3a6c798c6a49303f121e8245f136700b6eba5684c",
+      "size": 8897
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/joint.py",
+      "sha256": "96e707d593b79ef6c506463f560e3d90daf022ce6c1d19cacc854cceaa3b280f",
+      "size": 2221
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/maya/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/maya/mesh.py",
+      "sha256": "cd4e4ad7ad4bb961f7d971479ff93d7166cc625c3ad1498d10c59bb19546e461",
+      "size": 15130
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/maya/skin_weights.py",
+      "sha256": "688a0ebaa3dd5d906edf10708a4d00338474d514b105fef09ca74cacfad1e99d",
+      "size": 7017
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/maya/util.py",
+      "sha256": "54782065c6100df8ddba3b7cfda535b5bfe5393e9c3efdffa8dc96ab3553f838",
+      "size": 2670
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/mesh.py",
+      "sha256": "601caa057eac0d36b0e9be8a679650f8669f71039a8900c7320373e3ad5ac82a",
+      "size": 3630
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/builder/rig_builder.py",
+      "sha256": "12fc4a5e9b2765194d49fb0e9d35341a1a61b4e9d0a5de9475b470f80a667285",
+      "size": 10601
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/common.py",
+      "sha256": "c0727c7a5b2b2b3dfc0242faef7134b304ae6fb5e54d086f313895d03df14fcc",
+      "size": 175
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/behavior.py",
+      "sha256": "a39d49f5e1d4d7db302901983eb8502317cf60fd4760223e251ef38fbbc6b141",
+      "size": 13258
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/definition.py",
+      "sha256": "05f9da50ca69b64f72127824f9d06c216f500593b2363d6baddb71ab65005eef",
+      "size": 13171
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/descriptor.py",
+      "sha256": "0f2f7a6d647b3692c1f98b1e4b17c52c7bcd130d431356b48ba5464f4e1fb948",
+      "size": 4389
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/dna.dll",
+      "sha256": "17d84567d4e97afc0bbfa2bed624c4249fa5678a893749cb8fe7869033dad213",
+      "size": 353280
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/dna.py",
+      "sha256": "f12ae3a1a72ed51a71a50eaad554cf4c16a06b3eff8f191f488face49b2ee3f9",
+      "size": 55481
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/dnalib.py",
+      "sha256": "3390b99f1613992d877018ab258d0d8cd4aee28c4b0f18fffefaab1156cc438f",
+      "size": 9264
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/geometry.py",
+      "sha256": "f6f49223015e51866db21287f6529e1e1ee80540cf58a1bf66b5e6fc617b8e86",
+      "size": 10382
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/layer.py",
+      "sha256": "d4296fead0317741692efbcb28c62fa0f6a52d243e4f390038b0a130ab11263b",
+      "size": 136
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/dnalib/python311.dll",
+      "sha256": "a811c7516f531f1515d10743ae78004dd627eba0dc2d3bc0d2e033b2722043ce",
+      "size": 5762840
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/model.py",
+      "sha256": "2c14031437af91fb775725e72f6bbc2d3bda7139d3d561d74ddedec786a1b036",
+      "size": 4534
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/README.md",
+      "sha256": "de2e0be1ca1d5f60ee40494acd7c49ce9062dc2e3494814fd08604781559a73f",
+      "size": 8165
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/ui/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/ui/app.css",
+      "sha256": "f4fdc1fbdec396059ee8a73c57e4b9b7391f5e1843d4aac8a8cb335da675bde2",
+      "size": 912
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/ui/app.py",
+      "sha256": "74b1cb9e7b9a731cd27e73453f770d883d61d4a3dec2ad1d1e5f6fd3b4b1334b",
+      "size": 36418
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/ui/widgets.py",
+      "sha256": "58391397b2f1ef5b7e97af2e6e50dea66187416884f49c57210cde28aa260a25",
+      "size": 3158
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/modules/dna_viewer/version.py",
+      "sha256": "b1d2d6c7965bc136ebb50064bf7010e641557210be1f9bed88f74a5abbace2bf",
+      "size": 23
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/PluginLoader.py",
+      "sha256": "f5d551dccd0b1f3d50d796fd6b0d0b2fa73b15c15503d92c5bdb89b87917a92c",
+      "size": 3760
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/_py3dnacalib.so",
+      "sha256": "43a0e9b982b1b3080f82d8e8b66b2ae0ac99c467498e95600c8c7fbc70c3c878",
+      "size": 401896
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/libembeddedRL4.so",
+      "sha256": "fa9c803cd362850074fd1bc3d99e32f256fc2e248d70c3853d8809ef439f9de7",
+      "size": 1898312
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/libembeddedRL4.so.8",
+      "sha256": "36fafeb93e83640cf2a7f8a854a804692e28f25fa91d1b3f61d83384b1a90667",
+      "size": 1840608
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/libembeddedRL4.so.8.0.8",
+      "sha256": "36fafeb93e83640cf2a7f8a854a804692e28f25fa91d1b3f61d83384b1a90667",
+      "size": 1840608
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/MayaUE4RBFPlugin2022.mll",
+      "sha256": "b1bb194298ba5b0b60598b0ad488b861a40b542013894f8fa2b95d9ddd60abf0",
+      "size": 9714480
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2022/MayaUERBFPlugin.mll",
+      "sha256": "a4de8493e0c326207871e1aff50f4a40634e54b87b00d60447aeefe824a3fb90",
+      "size": 19104112
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/_py3dnacalib.so",
+      "sha256": "6abb258b8ad88e5d91c2a2542b4bbad040a0f5e572e3b75462a489bd0fe6fef9",
+      "size": 393488
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/libembeddedRL4.so",
+      "sha256": "83b356069ed3c978d452b36adf14426a2f3bcad598946f66ef6dd94c9c530ff0",
+      "size": 1898312
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/libembeddedRL4.so.8",
+      "sha256": "15f6c1032068b22ca162ae0625efd850c177bcb890882ff633ebd2b202ebd0e1",
+      "size": 1852248
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/libembeddedRL4.so.8.0.8",
+      "sha256": "15f6c1032068b22ca162ae0625efd850c177bcb890882ff633ebd2b202ebd0e1",
+      "size": 1852248
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/MayaUE4RBFPlugin2023.mll",
+      "sha256": "5ec5538369e930aad2a49dcfa437e5c3da66a33aa4055f4b72ca55dc639823d8",
+      "size": 19350488
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2023/MayaUERBFPlugin.mll",
+      "sha256": "f0f3ccef67d6acae28678bd038b81501104403a8fae4957fb5310b63d0337b59",
+      "size": 19104112
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2024/_py3dnacalib.so",
+      "sha256": "e3f21edb64910a998ace5367f0c54cd89d9ddc79827e816c5888aba15ed09f01",
+      "size": 393488
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2024/dnacalib.py",
+      "sha256": "cef313471bb5926da16cb87e80fa68c4462b0c076fc8a6048b7b78fe2fa42bcd",
+      "size": 46359
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2024/libdnacalib.so.6",
+      "sha256": "0a151377f319fd16e07eaf9d373a518e9b2da2001250e437761bc531c3952873",
+      "size": 1416008
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2024/libembeddedRL4.so",
+      "sha256": "27ce6cb25975a2848743b194b953eb32629abf8c01ae93c703d2c92ffbc48619",
+      "size": 1914784
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2024/MayaUERBFPlugin.mll",
+      "sha256": "9f88c9fbbd5fae8f246b5b0b717b080019b585c07f03d801e5d38e1a9b0254cb",
+      "size": 20113616
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2025/_py3dnacalib.so",
+      "sha256": "11d8a35336cdbf04abba50a9be02480ffc2832929eba8f85021c548bd0ef01f1",
+      "size": 368728
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2025/dnacalib.py",
+      "sha256": "35f0b405aef9606b2585294e3784407116731380989a4ecab1a99a0cef0aab51",
+      "size": 25899
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2025/embeddedRL4.so",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2025/libdnacalib.so.6",
+      "sha256": "354c35a4af637aeec7c875f1c40ce844298c54abc7d6c44b06bdb5c859bd7107",
+      "size": 605920
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/2025/MayaUERBFPlugin.mll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python3/_py3dna.so",
+      "sha256": "37194c0e0c213850ed5d1399fb96248749d7fffddb2075790165e6c740d6f2e0",
+      "size": 405056
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python3/dna.py",
+      "sha256": "3fef5bcda2045cda81d94d59cbfebb4d37d0745ddbc1f753e23fc33a43fabbb5",
+      "size": 55481
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python3/libdna.so.7.1.0",
+      "sha256": "bd957ed4c5d7708afe27fa739d24cc4e93f8af194bc6f32db810c8d2c0abc417",
+      "size": 990952
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python3108/_py3dna.so",
+      "sha256": "8394a0e732c544f778e73ec3fc5c7b064ac908d29b6fea3225f4062244fd9c47",
+      "size": 471904
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python3108/dna.py",
+      "sha256": "3fef5bcda2045cda81d94d59cbfebb4d37d0745ddbc1f753e23fc33a43fabbb5",
+      "size": 55481
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python3108/libdna.so.7.1.0",
+      "sha256": "86d6bd9c5ad532a649f52325457e9a9152b412ead89903dd3ffa1ba8bf1d2ec1",
+      "size": 1072888
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python311/_py3dna.so",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python311/dna.py",
+      "sha256": "3fef5bcda2045cda81d94d59cbfebb4d37d0745ddbc1f753e23fc33a43fabbb5",
+      "size": 55481
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python311/libdna.so.7",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python397/_py3dna.so",
+      "sha256": "5459193a3ada080a8856da7464d7afb17c6c81541ea1810ef47b30966cd2e013",
+      "size": 476488
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python397/dna.py",
+      "sha256": "f12ae3a1a72ed51a71a50eaad554cf4c16a06b3eff8f191f488face49b2ee3f9",
+      "size": 55481
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Linux/pydna/python397/libdna.so.7.1.0",
+      "sha256": "3cf4bc32cd8d83c7e7aa3be4531be197eb935cb4e14650b3ed2b88ca0252ee51",
+      "size": 1050624
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/Maya_version/dnacalib.dll",
+      "sha256": "1ffcd751244fefb7f4cc107c7c66ebb1ef6951bb604b4aca7fc8c1eef560d148",
+      "size": 257536
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/Maya_version/dnacalib.py",
+      "sha256": "b3cbab3ff454bfc07d878a9b41160d46e68ac6cb3ef309b88c7ef583d679634e",
+      "size": 25934
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/Maya_version/embeddedRL4.mll",
+      "sha256": "efa7737fb8598d8319cc164959de99f51454a7bc19e7c86f096d29383f0da4ff",
+      "size": 540672
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/Maya_version/MayaUERBFPlugin.mll",
+      "sha256": "11c55af3a61bc62a45558b98ad3e74ef416a081fcb19b29aed579f877a625e27",
+      "size": 14095360
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python3/dna.dll",
+      "sha256": "eadff9d226f318c5edf0010a0c49955afd735031ba9ebe4679f7b228e3291a3a",
+      "size": 316416
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python3/dna.py",
+      "sha256": "e0fc0260000a4fd46ded3fefe18a2d8c9a7170035ee96b6358c76f35a450dba6",
+      "size": 56453
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python3108/dna.dll",
+      "sha256": "40ddeec08f2b55f04708ef43abe73f903f04bcc4bb614de3e7be4b404f449c9a",
+      "size": 318464
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python3108/dna.py",
+      "sha256": "3fef5bcda2045cda81d94d59cbfebb4d37d0745ddbc1f753e23fc33a43fabbb5",
+      "size": 55481
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python311/dna.dll",
+      "sha256": "17d84567d4e97afc0bbfa2bed624c4249fa5678a893749cb8fe7869033dad213",
+      "size": 353280
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python311/dna9_4_3.dll",
+      "sha256": "6a03fd0da2a7b9e218c860f3a0e55f5f5f77a6d9845b5fa59c4ceeec48b00d87",
+      "size": 550400
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python311/polyalloc1_3_12.dll",
+      "sha256": "24b22e8c3374b178dd957ecd91aff7f6575e46cd2e6123ae955c7820eb12e2a8",
+      "size": 18432
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python311/statuscode1_2_6.dll",
+      "sha256": "78d1e29a5eb426186fe3326ddcc26b59b7daae3a70b1b015d8530dca01341574",
+      "size": 13312
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python311/trio4_0_16.dll",
+      "sha256": "7d219204aa961ec5fc7904c8c1b1994872c8f548a505cf44570b2d7595dedaad",
+      "size": 63488
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python397/dna.dll",
+      "sha256": "c3ebdfb2241c0a52cc03aa77e7b0f1ceac908d60c725907d1bfadacdaadeb7a5",
+      "size": 316416
+    },
+    {
+      "path": "external_tools/MSLiveLink/DHI/plugins/Windows/pydna/python397/dna.py",
+      "sha256": "e0fc0260000a4fd46ded3fefe18a2d8c9a7170035ee96b6358c76f35a450dba6",
+      "size": 56453
+    },
+    {
+      "path": "external_tools/MSLiveLink/LiveLink.py",
+      "sha256": "be985ac8079347bdea2a379928b5ed97c63f996d8cbbb1ea97eca5301ac180a2",
+      "size": 4818
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/__init__.py",
+      "sha256": "d9ee43cd6a6f62c0bf12a6cdf589502f62c5b7bcf54f8c6598647de5f471046d",
+      "size": 84
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/Analytics.py",
+      "sha256": "a15d6bfb731b7ef1c0a3ccf804e03792e465a0d4f3bef1895f9bd7a57972b080",
+      "size": 3607
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/Hypershade.py",
+      "sha256": "4d2d51f55b499c9333033e5705210b46a4bb76e3fc11c6101358992acf146fff",
+      "size": 806
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/Importer.py",
+      "sha256": "66b23cf1ee66019a7ee2ba8676352122d7f55e8cca9d141cb79385589d52c275",
+      "size": 5238
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/ImporterSetup.py",
+      "sha256": "3719fca18844dbd68efa79449560da5cc74ee79dd11dcc8f63a3b0a4268a8506",
+      "size": 9357
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/Installer.py",
+      "sha256": "3dc9d90fe8b24d55dcf010d85c7abd7af006ddd0133f6e9abf3da92f5e6ab204",
+      "size": 1834
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/MS_Logo.png",
+      "sha256": "734ff98136001b9f7ee9f6334afbc903651b2f4c5d752dad9ed59c0620ea0665",
+      "size": 16906
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/Renderers.py",
+      "sha256": "438eb346bd8cda4cd56aabb8d16b2f42299c05fc18cd8cd3293ca06121733047",
+      "size": 33584
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/__init__.py",
+      "sha256": "d9ee43cd6a6f62c0bf12a6cdf589502f62c5b7bcf54f8c6598647de5f471046d",
+      "size": 84
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/certifi/__init__.py",
+      "sha256": "aa36d475e20193ac893f83c97f926e8bb62b72e59aeb97fae40ebb1841a4a2ce",
+      "size": 67
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/certifi/__main__.py",
+      "sha256": "bb05ab2556be491b483b9afd1219e18ccd21affc0e66bc93d55c89c2dff3fa09",
+      "size": 255
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/certifi/cacert.pem",
+      "sha256": "54abc073292ab1b3ea95361d7e9fbc0fdf3c2b74777f0a4e2b6ec26670f0a453",
+      "size": 288740
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/certifi/core.py",
+      "sha256": "b94ada267b9477f07c19edd508e29f98a4ee33ffcfd3ac6a5fb7cad4cb4f1686",
+      "size": 2366
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/__init__.py",
+      "sha256": "e0800b8b519a98edfa5975f91c6bb0f27ab9919014bdb6f3fe67d9de8e158ba4",
+      "size": 1598
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/big5freq.py",
+      "sha256": "770473465b06a77660af52504924b09f1bf2699effabee64b8f7c254cbb2e2da",
+      "size": 31640
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/big5prober.py",
+      "sha256": "4e999da0d7d1b6743bc7d43fa7e6b5087686fa893699b8ac3797bd50702d3a26",
+      "size": 1804
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/chardistribution.py",
+      "sha256": "3736e80217d2e86383cbf4e9e8192650e2f836ec704d57dd54570a03d6dd500a",
+      "size": 9644
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/charsetgroupprober.py",
+      "sha256": "7edd006cb5c96f37f81fc645406b3d26bba1c8860d6dc09aca238ab7b91e5f85",
+      "size": 3893
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/charsetprober.py",
+      "sha256": "924e7e9b455d8eacdb1213d1901677f3a4777c1428dc3c6c06b74bf96172935a",
+      "size": 5255
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/cli/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size": 2
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/cli/chardetect.py",
+      "sha256": "3c9dbe4210b819e65cfcf664f277c91c6c3a8797b30a82e292cf85b54d053ed5",
+      "size": 2823
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/codingstatemachine.py",
+      "sha256": "ab3f59c0ad6ae26678b38cc345bc97bb929a1ae9d86e4ee0d59edfa9f6f8980e",
+      "size": 3678
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/compat.py",
+      "sha256": "7f3ae88ee53f789b86d4319f654a990b41fed77ac229d0740e9e0cb2bcb8e4a9",
+      "size": 1168
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/cp949prober.py",
+      "sha256": "e4d9cc55471e9778c3637c3c9630f4717ca3da572bbdd6a0c4e544d63c65ef17",
+      "size": 1904
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/enums.py",
+      "sha256": "dc7fc42153fe55460e74aa9edb1998772a2810348ba92f2c00231b9ffde87a35",
+      "size": 1737
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/escprober.py",
+      "sha256": "e4cad39d5b59184b77b2c9d8fa539798ea37258f8222acfdaee1b72a30e991b6",
+      "size": 4051
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/escsm.py",
+      "sha256": "c506f098cdc87aeb2483e02887273af9b49f837bec634b71d9310a2c3a156468",
+      "size": 10756
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/eucjpprober.py",
+      "sha256": "3c7ba67a6252d7dc4c843478c4faecbf131fc817ec6f6f7b9155a6633eb3832f",
+      "size": 3841
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/euckrfreq.py",
+      "sha256": "32b2eb21632d95a0c8d0b62df8c337328ba005b2ed4961ecea4bd9c7455ab083",
+      "size": 13741
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/euckrprober.py",
+      "sha256": "55b88e9fbfe277b98bf50e4675e57465edf0e5f1b49d10a9524133791f9b9e76",
+      "size": 1795
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/euctwfreq.py",
+      "sha256": "64f0481d90f03649c67fb9baaf8c461fc6d7d16dfca81a674f0555bf5407c3f3",
+      "size": 32008
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/euctwprober.py",
+      "sha256": "86553218a531cce3df07109cc9472f4594b18242eebd1a0353dc1e8e9e983223",
+      "size": 1793
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/gb2312freq.py",
+      "sha256": "68b1ecfb6192f2f992336963ca859681e56aff1451712fe037bca4a48895e370",
+      "size": 20998
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/gb2312prober.py",
+      "sha256": "9ac55bac315cac9444fd7becc844e2a9b4c67ef745855204676cc177e38435a1",
+      "size": 1800
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/hebrewprober.py",
+      "sha256": "afcd4baa029bdb865bbce99f8bde4ccc8b54c71edb92b8c9475a69923e6bbd9c",
+      "size": 14130
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/jisfreq.py",
+      "sha256": "beba824780a6c28c270555c9dc787f82c7e20e72073842db70d993c82e89c77c",
+      "size": 26102
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/jpcntx.py",
+      "sha256": "0a7e1cca9a36cbc0a9a826a7fb3b1d7d87448179110a7b2a42861a0aee854632",
+      "size": 19876
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langbulgarianmodel.py",
+      "sha256": "e6572587294354038b7891e59ce9baf73af108b9320cc8d021053a5414190d73",
+      "size": 13067
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langcyrillicmodel.py",
+      "sha256": "52b16d40ab9e9faa7f0644c1fbebc9d202fbd22d08ebc85e694eddcafa1c201a",
+      "size": 18281
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langgreekmodel.py",
+      "sha256": "a82e9de2584c3eb32f834fb88c98dc6eae260084f3835de74dc41c4873e034b4",
+      "size": 12913
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langhebrewmodel.py",
+      "sha256": "34e5534918a32ab531a3e9f9526b3a1c86e71b4ad53fa733e837e0a90f31e496",
+      "size": 11545
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langhungarianmodel.py",
+      "sha256": "3838611b284153207e21d6fe3cf28c74ec7c8fa0fe8b4f148a1ded50c0866045",
+      "size": 12817
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langthaimodel.py",
+      "sha256": "9289cbe4edd1921620f1e3ffff0a36292ffc6f9c56f8d4a40b660aac7744ca80",
+      "size": 11489
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/langturkishmodel.py",
+      "sha256": "cee5ca5be7039d7d3b3dfc5efee1838381915b66ad5a8d3e6374bd80b5b9b49b",
+      "size": 11295
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/latin1prober.py",
+      "sha256": "b35485904158d8d19edbff5b817d8c84e9b233f53fa9277f8d549d91d4a0671b",
+      "size": 5515
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/mbcharsetprober.py",
+      "sha256": "8731550fe6ebc530152e74c0903a9ad73b5de91c061b06f9a0076f863d7e944f",
+      "size": 3504
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/mbcsgroupprober.py",
+      "sha256": "0e54fe5fb291525e72dd258936a175357aaf92355ce3b8cf2a32768f8295b370",
+      "size": 2066
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/mbcssm.py",
+      "sha256": "2c6503875541eb5ad6b19078425241cda0a32363d411481b05cf7580f957e034",
+      "size": 26053
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/sbcharsetprober.py",
+      "sha256": "328e5e8bfa456c6522da253f9aeff3ee786fa13e7b040cf802b076b14fb906b7",
+      "size": 5789
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/sbcsgroupprober.py",
+      "sha256": "f1024da2b51ce4a7fba98e64034c05c7a5637a16c5f5cce2aff630aa73c014a3",
+      "size": 3619
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/sjisprober.py",
+      "sha256": "d5619ebff4921e96bb0155e63340c838d9753afc8a73c99dc9d50d68ab4618d2",
+      "size": 3866
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/universaldetector.py",
+      "sha256": "416984659e5818b8e05b42072fdf461fcb00cf4f92b34fe194c66f6a2c9655d6",
+      "size": 12771
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/utf8prober.py",
+      "sha256": "ac6c27ebd59f22f9a26e9d2c5af62e1ff4cfa17b3bcf3c0a1d35fbf4e8dbafda",
+      "size": 2848
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/chardet/version.py",
+      "sha256": "b657dc4376254dc24054d235c81bd2651734c7cf6654405cdcacef44d94d2d85",
+      "size": 251
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/__init__.py",
+      "sha256": "ff49f8474397b9fcb51c871710ec602425021c60eab5ace131d6015485dcdf6d",
+      "size": 60
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/codec.py",
+      "sha256": "34341dcbde4d51c774d16579421d103a966f609cc8a5a3156fd304d212ae43cd",
+      "size": 3417
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/compat.py",
+      "sha256": "40f6928bd6d6a943bb3805e60b46eb24561cd73c1e1c8dc99c0ec788cd819500",
+      "size": 244
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/core.py",
+      "sha256": "c2a0b81e1692063f300e3aea462410e9a767a7d793c77e6f7af05f5adad62f05",
+      "size": 12242
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/idnadata.py",
+      "sha256": "7ff752a04d4809dba960f1dbe9043759dbc4cdeb3dbef644237e49a9947c0dea",
+      "size": 43192
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/intranges.py",
+      "sha256": "2b955380fdc29fa50e4308a7aa3d0edacb724854284dbf31acb14aca0fa1ba58",
+      "size": 1802
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/package_data.py",
+      "sha256": "bd7a4efd95b346d9b71124bce60e87731a35849f03e2c250480fdf715a99a733",
+      "size": 23
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/idna/uts46data.py",
+      "sha256": "c10129ef63973bf4646d4f4743a359008ca830d119f508fcd0b457313be37372",
+      "size": 209509
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/__init__.py",
+      "sha256": "53551b3547e030e0527bdaf37023effe45394fb2a01bc2c44b7e54bc6fb844ce",
+      "size": 4058
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/__version__.py",
+      "sha256": "3f88c18da79df0e5ab8ce43031fd33ef373734f1b715418cb6d90ef69d949c90",
+      "size": 455
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/_internal_utils.py",
+      "sha256": "cc300b77115fb38a40a7808c13f4d3c36ac6c9847610606949e8581e07e7f28d",
+      "size": 1138
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/adapters.py",
+      "sha256": "f0619151368fd47da6b96f7765b46cf2a05a0d649ec05c6a7e0a33e978d91a0f",
+      "size": 21877
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/api.py",
+      "sha256": "c10788c626f483173c2b242a177a0cc15dabeecb338c973685b84657f64ccc54",
+      "size": 6657
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/auth.py",
+      "sha256": "c5eeecf75c65dc436342046564fdfed8ab000a75d81c088b3ae1cb0f0ea7cb24",
+      "size": 10512
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/certs.py",
+      "sha256": "c7529219459259f2df8bf60122fbdfbc8decadd81b58d9f21bd9370614fb3283",
+      "size": 471
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/compat.py",
+      "sha256": "b5cabe2e591536eabc50781d9548712836158d360786d786a618326ed722a178",
+      "size": 1854
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/cookies.py",
+      "sha256": "3c8c522a7b68527ea5da2af047e0813209b4b1c2bcb3eeb2519cf0a0254801da",
+      "size": 18979
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/exceptions.py",
+      "sha256": "b49f4a3959d34a8e9c541bebfbb2bfa16de3d4efb50fb785622ade5cb154fd0b",
+      "size": 3311
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/help.py",
+      "sha256": "2b09c8c9e618323ee5384ae4ea3b01b384b6617e9b518f1e5ff1d691fd3ca6ba",
+      "size": 3634
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/hooks.py",
+      "sha256": "2c058650723c481e763e484561bc323dc4fa996b23b9525e799a4cd115130037",
+      "size": 791
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/models.py",
+      "sha256": "60f3d1805580ebf9d56c45c9db4cea9684935693a0fbc8a68e99302fe702d38a",
+      "size": 35167
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/packages.py",
+      "sha256": "2f660ef0d9bb4a40dc21aae22988b988c7f937e8195155d3db4b4c5c568601d2",
+      "size": 556
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/sessions.py",
+      "sha256": "22d479bff41f8f7bd085be6b693f3da54ba0bc780ad70498ef52324360cc2cde",
+      "size": 30032
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/status_codes.py",
+      "sha256": "79ffd34252476b8e09ebf9eb97f853c3a87b23ea194bcaa0d8c1c2bbd632cd86",
+      "size": 4311
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/structures.py",
+      "sha256": "b2cacd2eb1fc5c42d7f3d864e3245060455e1e76e8a6ad4700905f82edfc6e2f",
+      "size": 3110
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/requests/utils.py",
+      "sha256": "914a81372dc3c35218e42bd083c83f9997164d3c8e6fe8356bd3c2766b2a2261",
+      "size": 31158
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/__init__.py",
+      "sha256": "faa1b384f758bcad70b951e9771bffac533a7e49eb639f00cb70b60577c60f20",
+      "size": 2769
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/_collections.py",
+      "sha256": "39d864e7e3a19fe0c7615e78cee86f5f2fad39dd715a5cff1e245c607e1cdbaa",
+      "size": 11128
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/connection.py",
+      "sha256": "d7575a944af8b25846fc7a53bc18fa0457cabf82d19755fa7a52281f3381cf77",
+      "size": 14884
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/connectionpool.py",
+      "sha256": "abd6ecea751a36663d6b9e06b7dddee22ecfc298e8caf391cfda6d8172f250ed",
+      "size": 36758
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/_appengine_environ.py",
+      "sha256": "3ce60949e35669c258c1741dbf421fdefe7a95ca221ee2fa31013ca701b56287",
+      "size": 993
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/_securetransport/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/_securetransport/bindings.py",
+      "sha256": "8abb4e8c43c383d8180a5be91e073e28d4ed0379c8c18dd44ef4af904e046edd",
+      "size": 17379
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/_securetransport/low_level.py",
+      "sha256": "727bd7f39143796036a1b70d062dfac9e2b6a72007e25a0288863136ec774e41",
+      "size": 12284
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/appengine.py",
+      "sha256": "4edd126f0cd66bf290b4ceb6184ff7fc77a374ec9e12ca45831bd36a802be499",
+      "size": 11324
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/ntlmpool.py",
+      "sha256": "f3b8c4b0f5cba6be8a42eb4345cd03a493e18e3eb7978cda6968f36764d9e759",
+      "size": 4281
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/pyopenssl.py",
+      "sha256": "5b13f6de5d827813da420310695c130c1b421b375bedaab0be9bf407eacea165",
+      "size": 17066
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/securetransport.py",
+      "sha256": "a0b01cd34d8eef04f7c19ab3a8f10c7e3fd8a0e8c1b30c47be01f678e12c4ed1",
+      "size": 33265
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/contrib/socks.py",
+      "sha256": "4f4f1834371c598ac1b2c45a6a06ed36a244de01b33eab292b13be99e34843bf",
+      "size": 7246
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/exceptions.py",
+      "sha256": "584276566036f0a3e098836eaa12034bc088b87ab9e4efd219376d39e8a217ed",
+      "size": 7444
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/fields.py",
+      "sha256": "bb97d425f007f1cd603e42c963a698c87fac83c459105bfa585a2179c8bba086",
+      "size": 8826
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/filepost.py",
+      "sha256": "a8c3b4aec148a00b20758bf954000dff6229d56db1f9531e7ca75744aa566e08",
+      "size": 2538
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/packages/__init__.py",
+      "sha256": "16c388547a81141953dd7c599da0f9cb6caad26bed570998e24baddc611f7012",
+      "size": 113
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/packages/backports/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/packages/backports/makefile.py",
+      "sha256": "d95d6770d3b7b62010394a07412a667d15c80ff20b37ecf06b1ae8d67a97ddee",
+      "size": 1470
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/packages/six.py",
+      "sha256": "e35a26c5b35179a8ef2d437ef6a74733a880122b21a35243699d64ae636efa31",
+      "size": 33557
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/packages/ssl_match_hostname/__init__.py",
+      "sha256": "397dbaca4557a9c24185becb0be9170bb216f226a0e17b6db6ffd92d48a6b275",
+      "size": 707
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/packages/ssl_match_hostname/_implementation.py",
+      "sha256": "597b35c8db64f4fb1856679325001ca9e026f35cdbcde69b11659ffb1449480a",
+      "size": 5839
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/poolmanager.py",
+      "sha256": "9cbd23f1f34eaa93684f13b7d3dc956401a8ec33602d677fd532a7f1969a3d26",
+      "size": 18353
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/request.py",
+      "sha256": "ff4ef82d69a073703ef370679e3efa3eaee98f7e36b4d34e48f9b9ca217aa973",
+      "size": 6189
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/response.py",
+      "sha256": "2878439a64846d7cee10c8a0314e0e1ff7952dd2d56829ae60a72559fba076c1",
+      "size": 29042
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/__init__.py",
+      "sha256": "3fd16a5678f9ed7d1178e11a7bff492be7f2906ff3497346dcdb0f82c86e757a",
+      "size": 1084
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/connection.py",
+      "sha256": "2500ffbce44463610d0834aba1697b25f54c9b05957c4cfa67e534712bb877b4",
+      "size": 4775
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/queue.py",
+      "sha256": "b219f754d59f92a59d01b0943d44cca2e8b5ca3209201614050a0cd26a054218",
+      "size": 518
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/request.py",
+      "sha256": "b53bfcf82cb1a0f57604ee87e36e421a1ec1b421b682ea143501d1ce1a1d8dd8",
+      "size": 3950
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/response.py",
+      "sha256": "055ff5abd2fe02d08c4e0b22f2f0d0b8e712a14de5f437c9608662bb84c707b2",
+      "size": 2659
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/retry.py",
+      "sha256": "e00c91c8b1dad7a684559f848413f4e0f7cbf50b28eec8e8bf3c66485a47141b",
+      "size": 15996
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/ssl_.py",
+      "sha256": "4ba6115a2ebf4d05a36e296ec40ae8e6fd7b58ece1d4df3509a84241912e8b1a",
+      "size": 14925
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/timeout.py",
+      "sha256": "4a40acb391c9dc3c5d65c9be0bbc2f5d157f6c9eb2e338b9468959753177406a",
+      "size": 10208
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/url.py",
+      "sha256": "e7cb8bbfd28fc23baa095ea6b8c6037e1be436f60d3f27e7b3b504c66ab48bd7",
+      "size": 14394
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/RequestLibrary/urllib3/util/wait.py",
+      "sha256": "3ed9756f478b053fc595fb9e927723238e6e584fdebb94fe4fbdba585eb33693",
+      "size": 5559
+    },
+    {
+      "path": "external_tools/MSLiveLink/Megascans/UI.py",
+      "sha256": "e8e4e72eab3eb23bb25efb844e0817f88a31343df9ca44de13dc24c4b615437f",
+      "size": 5570
+    },
+    {
+      "path": "external_tools/MSLiveLink/userSetup.py",
+      "sha256": "a60f3794434ee35b84da7ea8265c8194186b61541a7499a573e884308ebf3764",
+      "size": 604
+    },
+    {
+      "path": "houdini_tools/__init__.py",
+      "sha256": "77a73f74a98c0bed800a4535914c9022b1a768ca04ec5a5c980b63cd7c1f61b3",
+      "size": 64
+    },
+    {
+      "path": "houdini_tools/geometry.py",
+      "sha256": "0fad4aff197e3fe55589e9fd54597906c1de60bf837c5879cdbe18826b05d947",
+      "size": 1621
+    },
+    {
+      "path": "houdini_tools/operations.py",
+      "sha256": "0132af9423e0249291a29c5e5b797911d651699d5b94f47f36fd528da0fc8cec",
+      "size": 4904
+    },
+    {
+      "path": "houdini_tools/render.py",
+      "sha256": "060696ec6ddbfc081c9987621e5ceb0d1dd883985799647a5c0b39d87429b0f5",
+      "size": 614
+    },
+    {
+      "path": "houdini_tools/Rigging/__init__.py",
+      "sha256": "fc6257ae587d4ce0ed63e6cc76c39ba524233785713aac3ddd9d5b2fdcb81c21",
+      "size": 49
+    },
+    {
+      "path": "houdini_tools/Rigging/rigging_host_adapter.py",
+      "sha256": "1467960c551693270a727f04190a8a7ba609090eae2f3548a9cd583cc07e3245",
+      "size": 23645
+    },
+    {
+      "path": "houdini_tools/simulation.py",
+      "sha256": "42d404d250321997c5ff3b70924662d390e6c6032cc17bf2fda21a9d0e6a7d2a",
+      "size": 884
+    },
+    {
+      "path": "houdini_tools/usd.py",
+      "sha256": "3abf8252676e756c3fc9ed7dd976bc4c5f629004fa7440accf3dcaa7c9725eb0",
+      "size": 1120
+    },
+    {
+      "path": "houdini_tools/validation.py",
+      "sha256": "7b449f4e755b0e7c598281c897180250b27347b45ea1c751929931cb72c6fa37",
+      "size": 1857
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cdc66ff7a4023fac9018b7e4d4f56a23492675e7a745cdab3fd7d3f5fccd474a",
+      "size": 12181
+    },
+    {
+      "path": "max_tools/__init__.py",
+      "sha256": "14b0f4c999ecf9805ed0e1196ab4294e0ea61946c7c0fca3630a27aa68c3de75",
+      "size": 80
+    },
+    {
+      "path": "max_tools/Cinematics/__init__.py",
+      "sha256": "bbed755e8749195a4368f1c1164ff3c3b591f0e45a409e226a0834e35f39730e",
+      "size": 38
+    },
+    {
+      "path": "max_tools/Cinematics/SequenceUI/__init__.py",
+      "sha256": "c2f97ad5cd8d773e5b1ceed230a04e551b661211ca57c6bd29f3c6a71dca5af4",
+      "size": 220
+    },
+    {
+      "path": "max_tools/Cinematics/SequenceUI/sequence_ui.py",
+      "sha256": "8055148c9502c0b5160fa33747cd1ac010ebcb16cf35e2c3baeaec5863df8420",
+      "size": 25309
+    },
+    {
+      "path": "max_tools/Cinematics/SequenceUI/sequence_utils.py",
+      "sha256": "6ae9b7c5186660df41fe1f567976459959822fafdb79dee87c7bdbad23c86f1d",
+      "size": 9102
+    },
+    {
+      "path": "max_tools/operations.py",
+      "sha256": "57cfea3f1dc04a8413c1ff42b832eea5be51315194b384cf39d0785e527d7cd8",
+      "size": 7736
+    },
+    {
+      "path": "max_tools/Rigging/__init__.py",
+      "sha256": "487fad936f9c984cac25e7a7d444462d15e1ea0200fd84a46eec36ec4c88fdf0",
+      "size": 42
+    },
+    {
+      "path": "max_tools/Rigging/rigging_host_adapter.py",
+      "sha256": "5af7abbe157c4ac787ea6d490cef0110eceb6cddf2d8dd0201c1b67861a3861c",
+      "size": 65030
+    },
+    {
+      "path": "max_tools/Rigging/surface_spatial_skin_brush.py",
+      "sha256": "d8148366003bc45cd0c7f53728dba5430bf0aa8336ec565a30c778bff9695adb",
+      "size": 6511
+    },
+    {
+      "path": "maya_tools/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "maya_tools/Animation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "maya_tools/Animation/anim_export/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "maya_tools/Animation/anim_export/anim_export.py",
+      "sha256": "1cd63da383e748ffd8da702afad1432596ab9c8662b90d6a06769bf4709ebf9b",
+      "size": 14351
+    },
+    {
+      "path": "maya_tools/Animation/anim_export/anim_export_command.py",
+      "sha256": "54f18cc3e3ba897963af3e87c78a232a60197bd6fe0d70efd490a0f9b7a8970f",
+      "size": 3817
+    },
+    {
+      "path": "maya_tools/Animation/anim_export/anim_export_utils.py",
+      "sha256": "04af49bd2d5b8b140b62ce554ba3ac1cb9fee68bf4e0039356c5ad4c32d1e2ea",
+      "size": 6992
+    },
+    {
+      "path": "maya_tools/Animation/anim_export/bridge_export.py",
+      "sha256": "fc49941553935581d28293b42864bd614be2531758f0f5c52b25a8d58c219e38",
+      "size": 1979
+    },
+    {
+      "path": "maya_tools/Animation/anim_export/clean_skeleton_export.py",
+      "sha256": "f52759d4a6f67e434e0b88597b38e85911d316d0dcf39896b70ea62145c9d0de",
+      "size": 8730
+    },
+    {
+      "path": "maya_tools/Cinematics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "maya_tools/Cinematics/SequenceUI/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "maya_tools/Cinematics/SequenceUI/icons/theEntireWorld.png",
+      "sha256": "230f78d0e8160435bf184c9c064da3409b73b37f888a07ff9c7543bdff419689",
+      "size": 825124
+    },
+    {
+      "path": "maya_tools/Cinematics/SequenceUI/sequence_ui.py",
+      "sha256": "2ea8d98ab165b869c83766093f6a7aa2c7ddda3805827b9f1ce661cc62be4da1",
+      "size": 64133
+    },
+    {
+      "path": "maya_tools/Cinematics/SequenceUI/sequence_utils.py",
+      "sha256": "8732cb18b18ffcd444b08f4e711a45d7efa3cf0bc9a788e4dacdfd35bceb9bba",
+      "size": 10605
+    },
+    {
+      "path": "maya_tools/maya_menu.py",
+      "sha256": "3faeb5971020c7b1f04681bcb7ebfb850031341e753b07542a2fa302a630e4e3",
+      "size": 19943
+    },
+    {
+      "path": "maya_tools/maya_setup.py",
+      "sha256": "4c0ba06223b2a4285480137070a29e8d32d022f2acc147c9ea37d8ef6033ea68",
+      "size": 4823
+    },
+    {
+      "path": "maya_tools/README.md",
+      "sha256": "cd8319834ef3669fa0046eed53a801b2938f24b87951621b33c8998d107d796b",
+      "size": 5232
+    },
+    {
+      "path": "maya_tools/Rigging/auto_skinner.py",
+      "sha256": "2f17acbada410fd424ce750eeeaf49a968469af27bce2113b214b20a5519755e",
+      "size": 21450
+    },
+    {
+      "path": "maya_tools/Rigging/build_vehicle_rig_template.py",
+      "sha256": "2108fe4e34ceaeabecf9d856751b566228867c3726a87fe801843e31e9b32650",
+      "size": 5893
+    },
+    {
+      "path": "maya_tools/Rigging/create_rig.py",
+      "sha256": "a634f58f20d5b70e8cba5d2a2472eae75a92cc081c6f62668b2a7dc12776c0a3",
+      "size": 217240
+    },
+    {
+      "path": "maya_tools/Rigging/create_rig_core.py",
+      "sha256": "3dfe589b24c9c21ed699e88130ce2e4d7d5ee9f0d97a230c12db5164ba8a0cc1",
+      "size": 197988
+    },
+    {
+      "path": "maya_tools/Rigging/create_rig_modules.py",
+      "sha256": "30ed3ae2b1558ce82d73f69e5b9a4d6b3c11c30329eed8d88f45c6da930c26cc",
+      "size": 1204
+    },
+    {
+      "path": "maya_tools/Rigging/enum_attrs.py",
+      "sha256": "b912e240803a93506ec845c23cfe9b022c22279004433d646f42fd91d98423dc",
+      "size": 14135
+    },
+    {
+      "path": "maya_tools/Rigging/JOINT_PLACEMENT_PIPELINE.md",
+      "sha256": "611c5dfbce425b5144cb791b4db1e28ee02612411e14e0fea4a485c9cce83b75",
+      "size": 10140
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/manifest.json",
+      "sha256": "f81908226c3f25529b0e3357f3bde811b4c4437934f7f6a5040a2784193a244b",
+      "size": 1715
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_coolaid_rig_default_bind_approved_20261023.json",
+      "sha256": "eaa90c698a7816029f8e5221aadcac94f42179cb769f2b4e4031e0c552577312",
+      "size": 916150
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_coolaid_rig_default_bind_preplacer_20261023.json",
+      "sha256": "004663ed94448c0ae6ceec28f735ed223d41d12b7d22824b57af2fb64f4773af",
+      "size": 908245
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_danni_young.json",
+      "sha256": "51b7b010b3837a634a9b75ec7bd76e2c6c1394c5b35242919cc8775827fb9309",
+      "size": 1077188
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_grandma.json",
+      "sha256": "0eaff15d291341ebbba9d72f7b7c033f1ba09c012afa39f99321fa6ada96ed2e",
+      "size": 916228
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_indian_woman_young.json",
+      "sha256": "454c9c3d8d7c459eac2eec4a02ef2d259370034ff35714a4755c34c32f1a223f",
+      "size": 953089
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_john_healthy.json",
+      "sha256": "07438c41b5e997dec51724514624aeaefea8da2279556e1579ec4ecbf0320fc4",
+      "size": 930675
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_lj_healthy.json",
+      "sha256": "8b675df3eeeaf50a2d8bd641bfb32643aa7d7fb6327caceda564e94a265f5fcd",
+      "size": 927948
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_lost_soul_kid_approved_20261023.json",
+      "sha256": "b8217420053e27471d223a0918465114dfa7ec98878256815a015933a3617d95",
+      "size": 958157
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_lost_soul_kid_current_20261023.json",
+      "sha256": "2a7f5bea328d4ab266e748dcbb2c44192be8d3588f1a6600901ae7af4be9d465",
+      "size": 6095
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_lost_soul_kid_full_20261023.json",
+      "sha256": "3ece82e967b48e6a0b8f5ada59d9f1cb86f642004cbb0971cbb62453f31a54e9",
+      "size": 959505
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_mayan_woman.json",
+      "sha256": "edded6d07e1b162634cd61a518036a8e21bb927bfffe37057fd4ecd54e09437b",
+      "size": 942736
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_tay_infant.json",
+      "sha256": "260fc3ad18529e3243ccf5e1b3b18dfe01de70da7673226fabb213dcec7a4729",
+      "size": 922379
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_tay_teen.json",
+      "sha256": "ee53ef428cfbc0cbe2a7f1d8dd10e59619fd96c8b31f2ddb038cb1154bca6e28",
+      "size": 932388
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_atlas/studio_tay_toddler.json",
+      "sha256": "485dd16200e3fe1d2756baf8131fe29d573dbe315255cdc8be18aa85e213a2f3",
+      "size": 942258
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_reference_builder.py",
+      "sha256": "adc9fb7c495af12c232713af08ee35471445a187a41984cf00da219ce6b129a4",
+      "size": 8160
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression.py",
+      "sha256": "c51bc2e10b8480537d76654ffb24de75e310ffb00423b297c38fc9f9e4af1b93",
+      "size": 30608
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/assets/quaternius_universal_base/LICENSE.txt",
+      "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e",
+      "size": 806
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/assets/quaternius_universal_base/SOURCE.json",
+      "sha256": "5ee99b9b16242f4c50df581117877967157baa163d5392597123efe6223842ed",
+      "size": 884
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/assets/quaternius_universal_base/Superhero_Female_FullBody.fbx",
+      "sha256": "0727e7b236eeea4115531e07aeb2bb7690c1a58155f743bbf54282944fb97ea9",
+      "size": 1006508
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/assets/quaternius_universal_base/Superhero_Male_FullBody.fbx",
+      "sha256": "79344418d754a59730b79d1874752e9592143db34abe8adf138fa9a92a4768e9",
+      "size": 826876
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/baselines/cc0_quaternius_superhero_female.json",
+      "sha256": "58a5a8d3b2fe9dbaeb9185be21bc98e34bdd37f184f823b5168be30597ea276b",
+      "size": 8999
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/baselines/cc0_quaternius_superhero_male.json",
+      "sha256": "d3b5451e6d068ee04a3ebe65a7d15147860540f0740ff2ab1a69af507bcf25dc",
+      "size": 9003
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/baselines/studio_john_healthy_approved.json",
+      "sha256": "e30580028a59350b8a7ac243a3f26e5c40ad07ebd1d350155a7590d1274e07de",
+      "size": 6059
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/baselines/studio_juice_approved.json",
+      "sha256": "5cfb9d2325d920e8a50f95985649dfe58361c20a42f3bc39d70ed375d01f63c8",
+      "size": 5961
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/baselines/test.json",
+      "sha256": "30e5af75629eb0157feccfcc06da46c390ad37de405c2a81f728e7c5ea982495",
+      "size": 5871
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/latest_foot_report.json",
+      "sha256": "185627284ddfa5869f6208309041b77f8837bfc45f433e8c8f16822f93d03535",
+      "size": 53675
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/latest_report.json",
+      "sha256": "a3fd897943391a2d2e1a6e83717b0c8575a452fcf60cc8fd2ce48565d49335a1",
+      "size": 32971
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/manifest.json",
+      "sha256": "824ddabd179946733b6b94ab90296b204aca1ef63fff7bb09e771f74f7359fdd",
+      "size": 1301
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_cases/README.md",
+      "sha256": "42be0e014123f62320b443306bb7aa29ad95ede3e3fa5369d05e387a2b21303d",
+      "size": 1742
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placement_regression_runner.py",
+      "sha256": "d0daedcf011b12c3170da416d61a3a6e2f364b922fcc191969e6fa19e41e0b4a",
+      "size": 6549
+    },
+    {
+      "path": "maya_tools/Rigging/joint_placer.py",
+      "sha256": "97fc6a439b086c2d5fa00d42d36651f410269bad5b188292233ac9b1cc1d5065",
+      "size": 577980
+    },
+    {
+      "path": "maya_tools/Rigging/metahuman_utils.py",
+      "sha256": "fd35820d4974bb4a35a3246af3b2a7a3b8e87a4a3785103858234ea3b84112b3",
+      "size": 3065
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/control_identity.py",
+      "sha256": "7e79cc75278ed9c092c87894238127b1b491169ffc5bea62d9f73c084802aec7",
+      "size": 643
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/fbx_to_control_rig.py",
+      "sha256": "1212dccd66bca797e8989e9cd37983872460081b8eafdbf8fa6eae3eccaaa858",
+      "size": 9967
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/fbx_to_engine.py",
+      "sha256": "630184a27bfbc83aad0a0ab41513d39c3077c57068e44fbc1441039b527b755f",
+      "size": 3297
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/hik_mapping.py",
+      "sha256": "d0a921f9beb6d8caea3eb840b4aafc7e8a29915d8fdb7daa832367965ed93362",
+      "size": 6277
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/hik_retarget.py",
+      "sha256": "afc0d65680de62eaa68e3ca2cfd9aa72eb58a33f5822a641e5d313a491e5c19b",
+      "size": 15790
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/hik_ui.py",
+      "sha256": "5789b1d010ea4a527642c3a4dbf2b0021c382df002bd1f53d1c916b7e547b122",
+      "size": 279220
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/hik_ui_specialized_tabs.py",
+      "sha256": "5a05f0ca8824d5852fda384e097768356afc155f2e1b763398cc279991176439",
+      "size": 1253
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/referenced_animation_scene.py",
+      "sha256": "311564841cb789f65bc707645ad3e664b7177a67b6e607c63526da4aea850bd4",
+      "size": 38692
+    },
+    {
+      "path": "maya_tools/Rigging/mocap/setup_hik.py",
+      "sha256": "410fef771b9cafe5b5e17f41c9537bff1f82d3ca46cd96a8a432ae37f2c298b9",
+      "size": 93445
+    },
+    {
+      "path": "maya_tools/Rigging/rig_template.py",
+      "sha256": "549eb4bd6296ff39e2c8da142ff5c4fb9c0ad556b7f9dc6cb1ae73296cd1b5da",
+      "size": 13556
+    },
+    {
+      "path": "maya_tools/Rigging/rigging_host_adapter.py",
+      "sha256": "e30139be7637e56e0a15096d51803fd14e5cb53fb88800de889ee09a14a2fd75",
+      "size": 24815
+    },
+    {
+      "path": "maya_tools/Rigging/skinning_utils.py",
+      "sha256": "7eb5b4756f5c5b729e68c54a40dd1ba2a100be31e4a82242f99c0f4ffdd8cae1",
+      "size": 86915
+    },
+    {
+      "path": "maya_tools/Rigging/temp_cleanup.py",
+      "sha256": "f43137aaefb48ad4c69182888968cdbef588dc7abe7cb39085d42f885d609996",
+      "size": 3094
+    },
+    {
+      "path": "maya_tools/Rigging/templates/vehicle_rig.ma",
+      "sha256": "e031ecd8e2af98728809d162366d02edcb64576da6e711a42a5b7708fd9022ac",
+      "size": 79498
+    },
+    {
+      "path": "maya_tools/Rigging/templates/vehicle_rig_demo.ma",
+      "sha256": "34552df82100cc3132d8de9b11a3992aeaf74cec221ff52609a0fd8f6036105e",
+      "size": 181551
+    },
+    {
+      "path": "maya_tools/Rigging/templates/vehicle_rig_template.ma",
+      "sha256": "94063735d08b36126cb42a303b68d6de7154b786cecfb662520e448af46e9e83",
+      "size": 23926
+    },
+    {
+      "path": "maya_tools/Rigging/undo_utils.py",
+      "sha256": "0558e0402d092b44d95480c5a849c0a7cc2bde363001afa59408814ebfb82f84",
+      "size": 1230
+    },
+    {
+      "path": "maya_tools/Rigging/unreal_skeletal_export.py",
+      "sha256": "3e65b82c7275317a33f9c9cf2f617da0f047322b6b4e518883c7268259c92f2b",
+      "size": 7820
+    },
+    {
+      "path": "maya_tools/Rigging/validation_proxy.py",
+      "sha256": "ce14393a09b2532488f1fe62bcf1055ac6a346c82549d6382aa3e57cb342ba86",
+      "size": 4900
+    },
+    {
+      "path": "maya_tools/Rigging/vehicle_rig.py",
+      "sha256": "e951476f4d4cf2bebcdaeadd3200e3d7978839c796f3d10755e2237a60453d70",
+      "size": 56679
+    },
+    {
+      "path": "maya_tools/run_maya_with_setup_2023.bat",
+      "sha256": "a0354ae629a12e76cb093c9440be64c0e825e5a8418700ea270d36f10447cd4d",
+      "size": 299
+    },
+    {
+      "path": "maya_tools/run_maya_with_setup_2024.bat",
+      "sha256": "d098ea3772728fb6cf6479f2854711b03c10f3836d211a4cef1b8736f62ae63c",
+      "size": 299
+    },
+    {
+      "path": "maya_tools/run_maya_with_setup_2025.bat",
+      "sha256": "83983911d1d0f5cb663a8ee1bbc4bd44e8d4ee6201bed34cdc98211de9da3006",
+      "size": 299
+    },
+    {
+      "path": "maya_tools/run_maya_with_setup_2026.bat",
+      "sha256": "a66bf7980e53cda5950ba2a4d8a6fffea624df64992b0d0371c8d6c4bcd66735",
+      "size": 299
+    },
+    {
+      "path": "maya_tools/Utilities/dag.py",
+      "sha256": "e2696d68734a7636251f40be2613fc8d49364f97157ad310d3ffd4c25f5085e9",
+      "size": 1290
+    },
+    {
+      "path": "maya_tools/Utilities/joints.py",
+      "sha256": "86c7616190aac2f8cafc8f4c75250b049877700b9164f9104355bb28451b63e3",
+      "size": 2323
+    },
+    {
+      "path": "motionbuilder_tools/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "motionbuilder_tools/Animation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "motionbuilder_tools/Animation/anim_export/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "motionbuilder_tools/Animation/anim_export/anim_export.py",
+      "sha256": "628625db4d2e7abbb1e8b7f2042a69a967f1bddfcc2c830ea9a72f57ad6b93fa",
+      "size": 8415
+    },
+    {
+      "path": "motionbuilder_tools/character.py",
+      "sha256": "12c8e40433c05a00d7c0a580015b972d402e76fc4699410ccee98ed00a057416",
+      "size": 6662
+    },
+    {
+      "path": "motionbuilder_tools/Cinematics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "motionbuilder_tools/Cinematics/SequenceUI/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "motionbuilder_tools/Cinematics/SequenceUI/sequence_utils.py",
+      "sha256": "91316b3d15e84ff78b85a7bd24a4aa3ac017c7c7cf619f04220f15603db9266e",
+      "size": 11715
+    },
+    {
+      "path": "motionbuilder_tools/io.py",
+      "sha256": "154bfd2ff1a64ff87768d65c4a5837c300389b9dd3c83f160f4c0979421bfc42",
+      "size": 3678
+    },
+    {
+      "path": "motionbuilder_tools/motionbuilder_menu.py",
+      "sha256": "6acc01f0cc5a20a0f9ffca1dcda1fd54056c4599ab8b36eb432ccca84197f60f",
+      "size": 674
+    },
+    {
+      "path": "motionbuilder_tools/motionbuilder_setup.py",
+      "sha256": "69027fc3cfce8b47f930323b0c484a8b9590537bba199dc4e39468d8d19a6278",
+      "size": 2493
+    },
+    {
+      "path": "motionbuilder_tools/README.md",
+      "sha256": "486c33c5b0171971b91b675d47c403b29542f6f29ec31c768f84f6c85a3d2c5d",
+      "size": 1605
+    },
+    {
+      "path": "motionbuilder_tools/Rigging/__init__.py",
+      "sha256": "223883d3021b3f3d24cec3fdb2b0e5f4072fcd11275e096f224c28caa9825137",
+      "size": 54
+    },
+    {
+      "path": "motionbuilder_tools/Rigging/rigging_host_adapter.py",
+      "sha256": "dda936020c653a005bace46178e19ebb0d06bb9083515f46b3c99c2e929ccfd6",
+      "size": 14539
+    },
+    {
+      "path": "motionbuilder_tools/run_motionbuilder_with_setup_2023.bat",
+      "sha256": "3c75d38b7cf885534ecf7117343f3a89af4d9044f0ae42780f64e4ddabbe9ec9",
+      "size": 1350
+    },
+    {
+      "path": "motionbuilder_tools/run_motionbuilder_with_setup_2024.bat",
+      "sha256": "c2654d226d874014b6b97b2105ee56736acb75e04fbbcd6a7324d5c8db08ba88",
+      "size": 1350
+    },
+    {
+      "path": "motionbuilder_tools/run_motionbuilder_with_setup_2025.bat",
+      "sha256": "7da7b3470023c39ff16d2e9608dc9b0bf1724323731b5a71dd28a5ff856f3c4d",
+      "size": 1350
+    },
+    {
+      "path": "motionbuilder_tools/run_motionbuilder_with_setup_2026.bat",
+      "sha256": "bab1fe94b7bb13b8192417c50f26192c1a93c90930b9f7601cc7588807a2e6ee",
+      "size": 1350
+    },
+    {
+      "path": "official_tools_bundle.json",
+      "sha256": "e5bb4c53419eb82df7133563c2bd476c166ba9e46befbcc9557253ade9477329",
+      "size": 592
+    },
+    {
+      "path": "OFFICIAL_TOOLS_README.md",
+      "sha256": "d9f0fdefefe8a1db5da3471a28cc74b8ef77ea8e902ccf4cffa2a15da2c41572",
+      "size": 1248
+    },
+    {
+      "path": "PACKAGE_TIER.txt",
+      "sha256": "8149c5a11ba08a75f75caa699512635d40385acc7c976b4debd2f1714d3bfaaf",
+      "size": 174
+    },
+    {
+      "path": "plugins/AIStudioBridge/AIStudioBridge.uplugin",
+      "sha256": "3ce0636e2948a492b9677276660a99c5f844258d5f8dfc02a7c7d324001d8aec",
+      "size": 628
+    },
+    {
+      "path": "plugins/AIStudioBridge/AIStudioBridgeCapabilities.json",
+      "sha256": "bb96b4ce8773b087e59ad3211c14fe0b8f93a33a13616c4e94981b4f456ea687",
+      "size": 25999
+    },
+    {
+      "path": "plugins/AIStudioBridge/Config/FilterPlugin.ini",
+      "sha256": "b7776c3df4f21643b440b96bdfcfb22e111f353a1d99bc5e0d8ac95133bfa8c1",
+      "size": 367
+    },
+    {
+      "path": "plugins/AIStudioBridge/README.md",
+      "sha256": "eb188c0741f1062742cd82f76197cbae25e8b9e5ec5baabad4a21d60b5a03dd9",
+      "size": 567
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/AIStudioBridge.Build.cs",
+      "sha256": "2c32469c6aed21ea34cf45d9088e19e516215949f09e00000c9c4fd1e5ed673f",
+      "size": 1030
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Private/AIStudioBridge.cpp",
+      "sha256": "4559b459cb77ccfba5d43623c1cde7f5de216ebcc8a4efc373b9cd406ead1d0e",
+      "size": 276
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Private/AIStudioBridgeLibrary.cpp",
+      "sha256": "951b5420f2e5ee00f52b1c3ef89c666b57907fbb82940e49e30ae95e1193f0cc",
+      "size": 145508
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Private/AIStudioBridgeLibraryAudio.inl",
+      "sha256": "7da4c665644524229d11af4327b112f589d332011c114178fd649e4b9e209205",
+      "size": 12024
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Private/AIStudioBridgeLibraryNiagara.inl",
+      "sha256": "183b71aae88337943660c04d590744d57881eb692d6afd694b59f5a9ba26fab4",
+      "size": 19564
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Private/AIStudioBridgeLibraryPhysics.inl",
+      "sha256": "138ec9d9478cc70c088fbf9fb14547bc387c0c40444dc6b16a5e428db8caedf7",
+      "size": 42529
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Private/AIStudioBridgeLibraryUI.inl",
+      "sha256": "4736ec39c63159811fc0b88654f98994f5113676b03c52631724e371220a9c1f",
+      "size": 39938
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Public/AIStudioBridge.h",
+      "sha256": "02da3ec4e751d011ce3cd5c2a00ebf4ec1afcd4140ccb33bd9ae7e6b6f6e7408",
+      "size": 214
+    },
+    {
+      "path": "plugins/AIStudioBridge/Source/AIStudioBridge/Public/AIStudioBridgeLibrary.h",
+      "sha256": "0eb215f0ab32b3f35b126757bb3d011a34dd73d8909f9f3995ff5c16333c1744",
+      "size": 12757
+    },
+    {
+      "path": "README.md",
+      "sha256": "d9f0fdefefe8a1db5da3471a28cc74b8ef77ea8e902ccf4cffa2a15da2c41572",
+      "size": 1248
+    },
+    {
+      "path": "substance_painter_tools/__init__.py",
+      "sha256": "a9668332334fa8e38f905998f202acf221d8b31f7279de828a02d145fe60ba0e",
+      "size": 72
+    },
+    {
+      "path": "substance_painter_tools/material.py",
+      "sha256": "ee6f888271e875de05892a844b9e793a2ff8486785b543d34eb264df4d235944",
+      "size": 847
+    },
+    {
+      "path": "substance_painter_tools/project.py",
+      "sha256": "95eb323311073a1fafa773dd6784fd18eb54af82dd09554aa7428796020ff200",
+      "size": 859
+    },
+    {
+      "path": "substance_painter_tools/textures.py",
+      "sha256": "317536912d60dc760688b83011d04232f99f702666194546fe4fd2a23a5ba872",
+      "size": 4018
+    },
+    {
+      "path": "unreal_tools/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "unreal_tools/animation.py",
+      "sha256": "608be81f45a7eae7ac5ef707410638a8745e89aaa6ba581795c4a64cd1f53b2e",
+      "size": 37585
+    },
+    {
+      "path": "unreal_tools/animation_import_adapter.py",
+      "sha256": "68903f3038e7b1759865d0c52a01dfa40d7e031a3cf4ac4413665f52cb673e21",
+      "size": 1960
+    },
+    {
+      "path": "unreal_tools/animation_interchange_exporter.py",
+      "sha256": "dfab7bc08178cf1d29fd403b11f91a132a935b7635e591190d1471f754732913",
+      "size": 8358
+    },
+    {
+      "path": "unreal_tools/animation_source_import.py",
+      "sha256": "cecfd4dc873d68928d44c0ff14e60ea1e2105a83afdafbc300cebf9e220150ba",
+      "size": 4639
+    },
+    {
+      "path": "unreal_tools/asset_transfer_adapter.py",
+      "sha256": "bb696781fcbdbfbb249f5520a4d8cbc91296a4fe39b76a6b1e0f958a20f98159",
+      "size": 11931
+    },
+    {
+      "path": "unreal_tools/assets.py",
+      "sha256": "08525e170395329028227abc26030bafd35b6c2898d75405b13df35a4c3ea98a",
+      "size": 12556
+    },
+    {
+      "path": "unreal_tools/behavior_tree.py",
+      "sha256": "47fb40e4cb10018e339ed09c9d8a9abc1536b0207c3391cb3a3ccf532b533330",
+      "size": 3800
+    },
+    {
+      "path": "unreal_tools/blackboard.py",
+      "sha256": "8c115a09c776dba205ca896071f7442c80dd4820587766d6b66167f19f79302d",
+      "size": 4746
+    },
+    {
+      "path": "unreal_tools/blueprint.py",
+      "sha256": "461dcf2231c4984fcbd4de757bb8a86608f430b61a6be8c132ddfbb5f5a9be2a",
+      "size": 40619
+    },
+    {
+      "path": "unreal_tools/blueprint_events.py",
+      "sha256": "66402a38f0b4b4f4f6c99e61a90a2469395ee563e8f35096b52f4287e564117c",
+      "size": 2794
+    },
+    {
+      "path": "unreal_tools/blueprint_head.py",
+      "sha256": "6ffd3d91df4b552928a309a5826042918936b361a6f276aecc20f6a52aeeaa55",
+      "size": 25628
+    },
+    {
+      "path": "unreal_tools/blueprint_variables.py",
+      "sha256": "a10a3d3ea26a8f9e673744aaa617a29860c85a165a93f088f17ae803196d3c55",
+      "size": 1784
+    },
+    {
+      "path": "unreal_tools/control_rig.py",
+      "sha256": "6b75dbed43df425357d9a4db71863c61709f5da6065fb65eb6a5621943029ff9",
+      "size": 46287
+    },
+    {
+      "path": "unreal_tools/data_tables.py",
+      "sha256": "d7bf5e6cf9dd9e080812d2ff60ce340975fc5feed3371549d61e63c597963971",
+      "size": 7557
+    },
+    {
+      "path": "unreal_tools/domain_assets.py",
+      "sha256": "6809206cb4dd5540e8ddc06a7eb6d66f78418adb867f92336e59053e03d1f08d",
+      "size": 9211
+    },
+    {
+      "path": "unreal_tools/editor_tools.py",
+      "sha256": "214f3bff0c8cb1ddeb6c356e4576c600a81bee830ae903b06fdf069be4adf97c",
+      "size": 890
+    },
+    {
+      "path": "unreal_tools/gameplay.py",
+      "sha256": "0c790f798f160e2fdef488b3a41e841b54757ded2f3bb98117cec9fd45a434ee",
+      "size": 10157
+    },
+    {
+      "path": "unreal_tools/gameplay_import_func.py",
+      "sha256": "ddfd29125d10b51d847d430f385598fea2879169dbc9cde20982658768792ddf",
+      "size": 1652
+    },
+    {
+      "path": "unreal_tools/get_skeletons.py",
+      "sha256": "2b0edb006daf5166ba26c0295a523951369597199f5c9b213190318801ee6998",
+      "size": 1252
+    },
+    {
+      "path": "unreal_tools/http_server.py",
+      "sha256": "c134abd57025ea99350a936d96e4797728471683525c092aa8a40faaaf69cce8",
+      "size": 10373
+    },
+    {
+      "path": "unreal_tools/level.py",
+      "sha256": "44b534a5f7b1d4d84074e612a3d2e8d4f043bb110e334efba92dc715e1430fc4",
+      "size": 19433
+    },
+    {
+      "path": "unreal_tools/materials.py",
+      "sha256": "7864e09bfb8d6a4aaf309764921d166f892db53bdddde6f23946ea8f003e8217",
+      "size": 22917
+    },
+    {
+      "path": "unreal_tools/metasound.py",
+      "sha256": "722a17edab364bc6ae77e616b53c986b3ed920dbb83c250231943bebf7330758",
+      "size": 19242
+    },
+    {
+      "path": "unreal_tools/motion_matching.py",
+      "sha256": "9ec4ef39320852052c9af7962057c7ba70507480f9205b6cb837f676d711deb1",
+      "size": 6507
+    },
+    {
+      "path": "unreal_tools/navigation.py",
+      "sha256": "9814d53d4ff368f9bcb8d880ea2074af47ee77665665c7e78ecfc8aeaa4bb43b",
+      "size": 2715
+    },
+    {
+      "path": "unreal_tools/networking.py",
+      "sha256": "b1f4fde5e1387885431c050602c21b83e13f98e800070c0277c0c036d65f7ce3",
+      "size": 4525
+    },
+    {
+      "path": "unreal_tools/niagara.py",
+      "sha256": "402d739889db6ae219d65e5db81b638cd61675e89769eef6892cb6348533c553",
+      "size": 13694
+    },
+    {
+      "path": "unreal_tools/pcg.py",
+      "sha256": "c377ff12f638e73cb4d54fed1347bf1f7f0096fbbbeeea0ac625f2016215ec2e",
+      "size": 12135
+    },
+    {
+      "path": "unreal_tools/physics.py",
+      "sha256": "2d0be8c54e20e9a852cbc93b58ce0fc72b7b76a16f8506902160b4e298f67aeb",
+      "size": 5699
+    },
+    {
+      "path": "unreal_tools/project.py",
+      "sha256": "648074018485e3d61dd0f374e7a2fffc23e7398b9609cbbdfc4e82e451b01e6d",
+      "size": 5989
+    },
+    {
+      "path": "unreal_tools/README.md",
+      "sha256": "2f85e6a95918d1807c712aefae9dcbebb9bd06c60ae726b7ebe66ad01446130c",
+      "size": 2016
+    },
+    {
+      "path": "unreal_tools/retarget.py",
+      "sha256": "fafec4848c2ce592bc954b7a7255ef0b5fea36194b8a00582606e7ffab480003",
+      "size": 9197
+    },
+    {
+      "path": "unreal_tools/retargeting.py",
+      "sha256": "823fc04bbba1faea497d9064014ae3a16be8aaec84db8ee5f31f992efe74c3e6",
+      "size": 18624
+    },
+    {
+      "path": "unreal_tools/reverse_foot.py",
+      "sha256": "938e59b45ec3d9fc4c91858832b66f2449ba1c37fcec002973581771cd36eda1",
+      "size": 24618
+    },
+    {
+      "path": "unreal_tools/rollback.py",
+      "sha256": "39c20ef9fe4d3c95983339b862d6e23a7c5a712c7e8368d7535d3005c9eb10c9",
+      "size": 5387
+    },
+    {
+      "path": "unreal_tools/runtime.py",
+      "sha256": "5b628671357e309b04e724baf6da5c3a70d1538a13b6c999913c9e4c8978b183",
+      "size": 10785
+    },
+    {
+      "path": "unreal_tools/sequence_func.py",
+      "sha256": "e5ad95f352540ad2d191fd8f9869e21948561c7f7272d534186b7d26146d6d3c",
+      "size": 2128
+    },
+    {
+      "path": "unreal_tools/sequence_import_contract.py",
+      "sha256": "6118580ae473f4f32dcad23edc97f843bd5539869610c7e4fc0e0641f382dfc1",
+      "size": 10789
+    },
+    {
+      "path": "unreal_tools/sequence_importer.py",
+      "sha256": "e7a0b7acb67e19d7ec08d610fbfcff4e1195e1fd342f64bfda11237f4650b9f4",
+      "size": 89926
+    },
+    {
+      "path": "unreal_tools/sequence_preflight_func.py",
+      "sha256": "87dfbb4f324788ba08f2157983fb7430bdf8b1925d4d0d004355af4595f12af8",
+      "size": 1165
+    },
+    {
+      "path": "unreal_tools/sequence_publish_adapter.py",
+      "sha256": "ae2993cb518d2cbbde114fe4435a8763109a4b552de8d932b400dd2aaef0174f",
+      "size": 7125
+    },
+    {
+      "path": "unreal_tools/sequencer.py",
+      "sha256": "d9e7b38bb5e565291516ead326cf094199aad6dbe849b6e6f5af40e0da991511",
+      "size": 17505
+    },
+    {
+      "path": "unreal_tools/skeletal.py",
+      "sha256": "1d70715b5d57545addcc2481bacefed176a0e5f29514884dd78bb6d7ef1e1c0b",
+      "size": 3585
+    },
+    {
+      "path": "unreal_tools/skeletal_mesh_import.py",
+      "sha256": "02960fcf78eed127690c48d8969e878d6cc575408d8ae485dd2784ac12677532",
+      "size": 10276
+    },
+    {
+      "path": "unreal_tools/sound_cue.py",
+      "sha256": "c628f5352ed5d8e3c2b3a5d1f8b85ea243c3ff846c082d0f229b3f3068d6307e",
+      "size": 7796
+    },
+    {
+      "path": "unreal_tools/unreal_project_data.py",
+      "sha256": "23f0592a1c40431a91b7b91b597282c0a74b3485a0c91dea40392590a3ddcb5a",
+      "size": 18791
+    },
+    {
+      "path": "unreal_tools/unreal_subprocess.py",
+      "sha256": "30c0230f73333655585eaaeec90e2ebee976b7db8187b42751a1b1113a213796",
+      "size": 13515
+    },
+    {
+      "path": "unreal_tools/validate.py",
+      "sha256": "130150d20c05243d2ed53445a7e328084dbaa0f20f08f67dbb2782be5b6b4980",
+      "size": 3383
+    },
+    {
+      "path": "unreal_tools/widget.py",
+      "sha256": "e7845fcfc5798d79a49c066599388c171659f2803d8baff600a11332a71a9b59",
+      "size": 2494
+    },
+    {
+      "path": "utilities/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "utilities/asset_ingestor.py",
+      "sha256": "ac965e1b2f11eef8e14f428237c8754370c61e8d4c51dd0e98c7d35d76fa427c",
+      "size": 137
+    },
+    {
+      "path": "utilities/json_data.py",
+      "sha256": "422406a97200ae0e03cfe329174a5b79a5dacf701a6c0271ae7f5969c5058ee8",
+      "size": 1283
+    },
+    {
+      "path": "utilities/p4_utils.py",
+      "sha256": "6350cc680c0967b9ee91585c9e268f67c063bd8260f629408df1624e9f49c8e4",
+      "size": 3590
+    },
+    {
+      "path": "utilities/pipeline_asset_downloader.py",
+      "sha256": "60afe870f788b078d9cc7d5974def5d1cce9e2b860400b38b47b4af77dd1f2a4",
+      "size": 6300
+    },
+    {
+      "path": "utilities/safe_serialization.py",
+      "sha256": "f75cb383e67ef3d69fbb0dced05e8ec3b4e788801807c87398a0035c5cbe5533",
+      "size": 1004
+    },
+    {
+      "path": "utilities/sequence_workspace.py",
+      "sha256": "c03781e729582973b92c2dfc9ba9740f88fbae6e0a8a9789f8ec6926d0c0289d",
+      "size": 12366
+    },
+    {
+      "path": "utilities/unreal/__init__.py",
+      "sha256": "aafc00d68f6277663ba7561af56b671f6ad14625108fcc64d9128fa7a304dc75",
+      "size": 55
+    },
+    {
+      "path": "utilities/unreal/debug_live_pie_hotkey_animations.py",
+      "sha256": "88edb081a02df64e72dda81f006ef1c506a3eef28103cea269e4cb38c3602936",
+      "size": 3934
+    },
+    {
+      "path": "utilities/unreal/find_blueprint_pin_wiring_code.py",
+      "sha256": "13bbda3fafc85fb849bb61e6607b552524f2a265f28932b3ec193b1623fe5d64",
+      "size": 1836
+    },
+    {
+      "path": "utilities/unreal/http_bridge.py",
+      "sha256": "fc1d00ea0a32df2eb7b3154e8421f2d17321f4bb968b5ad07b6a5b46f93668bd",
+      "size": 767
+    },
+    {
+      "path": "utilities/unreal/inject_direct_pie_print_hooks.py",
+      "sha256": "c2e1000ce89e29f4e8af83c3df1971684ffaa0a7a58f1138f069412ec3f6b87f",
+      "size": 2879
+    },
+    {
+      "path": "utilities/unreal/verify_live_pie_gameplay.py",
+      "sha256": "ae16f869ef3f2a3962027c1fa6d860a28f452c290ed718886195e702fe0b29ef",
+      "size": 2613
+    },
+    {
+      "path": "workflows/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "workflows/cross_dcc/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "workflows/cross_dcc/review_3dsmax_unreal_environment_publish.py",
+      "sha256": "13771c3ed2292ce0fc167a579692c2122215055a92034c8d871a42484a07ad41",
+      "size": 9510
+    },
+    {
+      "path": "workflows/cross_dcc/review_3dsmax_unreal_environment_publish.workflow.json",
+      "sha256": "73112f2f28fb2408de450010071d79b9625690616a3f407868bba23584c33736",
+      "size": 46343
+    },
+    {
+      "path": "workflows/cross_dcc/review_blender_unity_vehicle_publish.py",
+      "sha256": "ffd248295c4c7a2d7b3674eecf9455c6737f4c96039c858fca4b68bef43e922e",
+      "size": 9844
+    },
+    {
+      "path": "workflows/cross_dcc/review_blender_unity_vehicle_publish.workflow.json",
+      "sha256": "73166eeb66489337b968811d3387b2db3b3d1cf99e1326089793fd013b8e820d",
+      "size": 56446
+    },
+    {
+      "path": "workflows/cross_dcc/review_blender_unreal_prop_publish.py",
+      "sha256": "11e8b78ffb65e5050f267a59eb4ee499396b7cc0683f442881339a3f6ea1edef",
+      "size": 13182
+    },
+    {
+      "path": "workflows/cross_dcc/review_blender_unreal_prop_publish.workflow.json",
+      "sha256": "a0bd436536aba55ad2a30a1d914c257459dbdba3b9da281192804d9cd4875e84",
+      "size": 77085
+    },
+    {
+      "path": "workflows/cross_dcc/review_houdini_unreal_fx_mesh_publish.py",
+      "sha256": "b84d09da21879a9e6791d702c6b468e159b983a986f016f846f84949a4bd83bc",
+      "size": 9576
+    },
+    {
+      "path": "workflows/cross_dcc/review_houdini_unreal_fx_mesh_publish.workflow.json",
+      "sha256": "fccec6ee9d5805c33c98fb212ebff79318eeaaefd7a1766e37a34d907616d289",
+      "size": 47763
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_blender_unity_character_publish.py",
+      "sha256": "4adf70facd4f63f826d6864980a91d065b391c976fe3c129adca13051956d64a",
+      "size": 14660
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_blender_unity_character_publish.workflow.json",
+      "sha256": "fb4366a54e0151c527139482002ca20f6364353d1e694098811cdc79bd783972",
+      "size": 86310
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_blender_unreal_character.py",
+      "sha256": "03507c2ffbe16cce304d56794387606e348adebe05f57942c1fb3d3f80e21129",
+      "size": 21021
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_blender_unreal_character.workflow.json",
+      "sha256": "7a4e2a8fb6010b4923b743401532ffb8e6038f93a60b333975d1090a87b48206",
+      "size": 121462
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_motionbuilder_unreal_roundtrip.py",
+      "sha256": "00c9236e32ce9a03e2681beefd5ed552423dee60b76abe4551387ddc99aa8325",
+      "size": 21744
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_motionbuilder_unreal_roundtrip.workflow.json",
+      "sha256": "1564cd5a6b8c605ca7632d94d52a115f01879a24664ddfc06c48e495e4c27a82",
+      "size": 127688
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_unreal_animation_publish.py",
+      "sha256": "4212c7f40f2505b172214fec9c47cc9b0119fb335ecb0788918cc0df99d3f6e2",
+      "size": 17354
+    },
+    {
+      "path": "workflows/cross_dcc/review_maya_unreal_animation_publish.workflow.json",
+      "sha256": "5a0bc4f262eea4b17caa71e8f946770a240e7fb635584a52a22006c056b50b40",
+      "size": 115377
+    },
+    {
+      "path": "workflows/cross_dcc/review_motionbuilder_blender_unreal_mocap.py",
+      "sha256": "bd447e0ca9804103f4156b82468fa6007120bc9f5d1ce493f87baa68d32fa32d",
+      "size": 23973
+    },
+    {
+      "path": "workflows/cross_dcc/review_motionbuilder_blender_unreal_mocap.workflow.json",
+      "sha256": "97b24cec3d71e3f91e70420b1ae479383f09efd77adf633fd5e809f650d988b6",
+      "size": 135763
+    },
+    {
+      "path": "workflows/cross_dcc/review_substance_tech_connector_texture_publish.py",
+      "sha256": "8c86effa2f893f721e97e3db9eee775a49c74d028610869a59c946d280fef2f6",
+      "size": 8280
+    },
+    {
+      "path": "workflows/cross_dcc/review_substance_tech_connector_texture_publish.workflow.json",
+      "sha256": "83d7abff733874a21e1e4a854569287b4c9bd7bfadd99e22bd8dee4e919b0c90",
+      "size": 37783
+    },
+    {
+      "path": "workflows/pipeline_review_pack.report.json",
+      "sha256": "74bd3bf99a9c7595593ef26bdf6589c8d87f9fabc36c27d7926617bc02442655",
+      "size": 12578
+    }
+  ],
+  "product_id": "official_tools_bundle",
+  "requested_tier": "official-tools",
+  "required_capability": "official_tools_bundle",
+  "schema_version": 1,
+  "tier": "official-tools",
+  "total_bytes": 305294098
+}
