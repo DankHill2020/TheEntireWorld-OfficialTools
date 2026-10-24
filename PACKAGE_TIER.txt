@@ -1,0 +1,3 @@
+The Entire World Official Tools Bundle
+
+The complete optional first-party DCC and pipeline tool collection. Install it beside Core or add its directory to Tech Connector.
